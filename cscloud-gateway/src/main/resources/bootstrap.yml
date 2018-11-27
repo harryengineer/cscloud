@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: '@pom.artifactId@'
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka/
+    
+zuul:
+  routes:
+    user:
+       path: /user/**
+       serviceId:  'cscloud-provider-usc'
+     

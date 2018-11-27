@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cscloud-apollo" />
+        <module name="cscloud-common-base" />
+        <module name="cscloud-common-core" />
+        <module name="cscloud-common-util" />
+        <module name="cscloud-eureka" />
+        <module name="cscloud-gateway" />
+        <module name="cscloud-monitor" />
+        <module name="cscloud-provicer-msc" />
+        <module name="cscloud-provider-api-dtc" />
+        <module name="cscloud-provider-api-msc" />
+        <module name="cscloud-provider-api-usc" />
+        <module name="cscloud-provider-dtc" />
+        <module name="cscloud-provider-usc" />
+        <module name="cscloud-zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cscloud-apollo" target="1.8" />
+      <module name="cscloud-common" target="1.8" />
+      <module name="cscloud-common-base" target="1.8" />
+      <module name="cscloud-common-core" target="1.8" />
+      <module name="cscloud-common-util" target="1.8" />
+      <module name="cscloud-eureka" target="1.8" />
+      <module name="cscloud-gateway" target="1.8" />
+      <module name="cscloud-master" target="1.8" />
+      <module name="cscloud-monitor" target="1.8" />
+      <module name="cscloud-provicer-msc" target="1.8" />
+      <module name="cscloud-provider" target="1.8" />
+      <module name="cscloud-provider-api" target="1.8" />
+      <module name="cscloud-provider-api-dtc" target="1.8" />
+      <module name="cscloud-provider-api-msc" target="1.8" />
+      <module name="cscloud-provider-api-usc" target="1.8" />
+      <module name="cscloud-provider-dtc" target="1.8" />
+      <module name="cscloud-provider-usc" target="1.8" />
+      <module name="cscloud-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
