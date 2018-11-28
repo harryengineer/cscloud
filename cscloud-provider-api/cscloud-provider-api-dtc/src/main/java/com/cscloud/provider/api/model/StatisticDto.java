@@ -3,6 +3,8 @@ package com.cscloud.provider.api.model;
 import java.io.Serializable;
 import java.util.Date;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
@@ -10,20 +12,30 @@ import lombok.Data;
  * @author Administrator
  *
  */
-@Data
+@Data // @相当于
+@ApiModel
 public class StatisticDto implements Serializable{
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private Integer infoId;
+	@ApiModelProperty(name = "statisticId",value = "统计的id",example = "1")
+	private Integer statisticId;
+	@ApiModelProperty(name = "shopId",value = "店铺的的id",example = "1")
 	private String shopId;
+	@ApiModelProperty(name = "custId",value = "客服的id",example = "1")
 	private String custId;
+	@ApiModelProperty(name = "receiveNum",value = "回答的数量",example = "1")
 	private Integer receiveNum;
+	@ApiModelProperty(name = "onlineLong",value = "在线时长",example = "1")
 	private Integer onlineLong;
+	@ApiModelProperty(name = "transferNum",value = "转接的数量",example = "1")
 	private Integer transferNum;
+	@ApiModelProperty(name = "replyNum",value = "统计回答数量",example = "1")
 	private Integer replyNum;
+	@ApiModelProperty(name = "createTime",value = "创建时间",example = "1")
 	private Date createTime;
-	private Date onlineTime;	
+	@ApiModelProperty(name = "loginTime",value = "登录时间",example = "1")
+	private Date loginTime;	
 }

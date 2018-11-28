@@ -34,7 +34,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>
@@ -74,6 +73,11 @@
 				<artifactId>cscloud-common-core</artifactId>
 				<version>${cscloud.version}</version>
 			</dependency>
+			 <dependency>
+        	 <groupId>com.zhang</groupId>
+        	 <artifactId>cscloud-common-config</artifactId>
+        	 <version>${cscloud.version}</version>
+        </dependency>
 			<dependency>
 				<groupId>com.zhang</groupId>
 				<artifactId>cscloud-provider-api-dtc</artifactId>
@@ -109,16 +113,6 @@
 
 
 	</dependencyManagement>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 	<modules>
 		<module>cscloud-eureka</module>
 		<module>cscloud-gateway</module>
@@ -129,4 +123,17 @@
 		<module>cscloud-common</module>
 		<module>cscloud-provider-api</module>
 	</modules>
+	
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<addResources>false</addResources>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

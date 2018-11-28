@@ -14,7 +14,17 @@
   				<scope>runtime</scope>
   			</dependency>
   			
-  </dependencies>
+  			<dependency>
+  				<groupId>com.zhang</groupId>
+  				<artifactId>cscloud-provider-api-dtc</artifactId>
+  			</dependency>
+
+
+  			<dependency>
+  				<groupId>org.springframework.boot</groupId>
+  				<artifactId>spring-boot-starter-web</artifactId>
+  			</dependency>
+    </dependencies>
   
     <build>
         <plugins>

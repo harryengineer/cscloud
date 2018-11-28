@@ -14,11 +14,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class CsCloudUscApplication {
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(CsCloudUscApplication.class).run(args);
-		
-		if (true) {
-			
-		}
-		
 		System.out.println("-sdfds");
 	}
 }

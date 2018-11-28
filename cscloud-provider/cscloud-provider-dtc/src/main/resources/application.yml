@@ -1,9 +1,14 @@
 server:
   port: 8804
 
+ 
 
 spring:
-  datasource:
+   profiles:
+    active: dev
+   application:
+    name: '@project.name@'
+   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:  jdbc:mysql://localhost:3306/kefu
     type: com.alibaba.druid.pool.DruidDataSource

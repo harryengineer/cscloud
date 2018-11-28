@@ -6,4 +6,20 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>cscloud-monitor</artifactId>
+  <dependencies>
+  			<!-- swagger的访问的入口 -->
+  		   <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency> 
+        <dependency>
+        	 <groupId>com.zhang</groupId>
+        	 <artifactId>cscloud-common-config</artifactId>
+        </dependency>
+        
+  </dependencies>
 </project>

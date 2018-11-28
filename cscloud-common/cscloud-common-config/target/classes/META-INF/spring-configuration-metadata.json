@@ -1,0 +1,67 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cscloud.common.config.properties.PaasCsCloudProperties",
+      "name": "cscloud",
+      "type": "com.cscloud.common.config.properties.PaasCsCloudProperties"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2",
+      "type": "com.cscloud.common.config.properties.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cscloud.common.config.properties.PaasCsCloudProperties",
+      "name": "cscloud.swagger",
+      "type": "com.cscloud.common.config.properties.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.contact-email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.contact-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.contact-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.description",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.license",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.license-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.title",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "name": "swagger2.version",
+      "type": "java.lang.String"
+    }
+  ]
+}

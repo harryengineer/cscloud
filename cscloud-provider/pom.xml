@@ -18,6 +18,10 @@
   		<groupId>com.zhang</groupId>
   		<artifactId>cscloud-common-core</artifactId>
   	</dependency>
-
+	<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger2</artifactId>
+	</dependency>
+		 
   </dependencies>
 </project>

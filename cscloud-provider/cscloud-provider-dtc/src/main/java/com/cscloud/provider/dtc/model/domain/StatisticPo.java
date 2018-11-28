@@ -22,7 +22,7 @@ public class StatisticPo extends BaseEntity implements Serializable {
 	 *  
 	 */
 	private static final long serialVersionUID = 4722570153950536300L;
-	private Integer infoId;
+	private Integer statisticId;
 	private String shopId;
 	private String custId;
 	private Integer receiveNum;

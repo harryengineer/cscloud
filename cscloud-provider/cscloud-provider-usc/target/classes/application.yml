@@ -1,2 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: 'cscloud-provider-usc'
+
 server:
   port: 8803
