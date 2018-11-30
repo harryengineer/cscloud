@@ -3,6 +3,17 @@ spring:
     active: dev
   application:
     name: '@pom.artifactId@'
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://localhost:3306/kefu
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      initial-size: 10
 
 server:
   port: 8803
+  

@@ -6,6 +6,11 @@ import com.cscloud.common.util.wrapper.Wrapper;
 import com.cscloud.provider.api.model.StatisticDto;
 import com.cscloud.provider.api.service.DtcStatisticFeignApi;
 
+/**
+ * 注入
+ * @author Administrator
+ *
+ */
 @Component
 public class DtcStatisticFeignApiHystrix implements DtcStatisticFeignApi {
 

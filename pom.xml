@@ -31,8 +31,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -73,11 +73,11 @@
 				<artifactId>cscloud-common-core</artifactId>
 				<version>${cscloud.version}</version>
 			</dependency>
-			 <dependency>
-        	 <groupId>com.zhang</groupId>
-        	 <artifactId>cscloud-common-config</artifactId>
-        	 <version>${cscloud.version}</version>
-        </dependency>
+			<dependency>
+				<groupId>com.zhang</groupId>
+				<artifactId>cscloud-common-config</artifactId>
+				<version>${cscloud.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.zhang</groupId>
 				<artifactId>cscloud-provider-api-dtc</artifactId>
@@ -123,8 +123,8 @@
 		<module>cscloud-common</module>
 		<module>cscloud-provider-api</module>
 	</modules>
-	
-	
+
+
 	<build>
 		<plugins>
 			<plugin>

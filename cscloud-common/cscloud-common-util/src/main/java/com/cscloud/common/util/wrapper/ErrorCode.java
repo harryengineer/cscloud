@@ -33,8 +33,8 @@ public enum ErrorCode {
 	        return value.toString();
 	    }
 
-	    public String getCode() {
-	        return value.toString();
+	    public int getCode() {
+	        return value;
 	    }
 
 	    public static ErrorCode getByCode(Integer value) {

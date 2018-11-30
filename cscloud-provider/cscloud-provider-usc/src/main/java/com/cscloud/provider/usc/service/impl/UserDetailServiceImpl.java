@@ -21,17 +21,23 @@ public class UserDetailServiceImpl implements UserDetailService {
 	@Override
 	public String getUserDetailById(Integer id) {
 		try {
+			System.out.println("==================" + id );
 			Wrapper<StatisticDto> wrapper = dtcStatisticFeignApi.getByStatisticId(id);
 			if (wrapper == null) {
-				
+				throw new RuntimeException();
 			}
 			
+			log.info(wrapper.toString());
+			if (wrapper.whetherSuccess()) {
+				return wrapper.getData().toString();
+			}
 			
 			return null;
 		} catch (Exception e) {
 			log.error("通过id获取用户的信息异常={}", e.getMessage(),e);
-			throw new Exception(e);
 		}
+		
+		return null;
 	}
 	
 	

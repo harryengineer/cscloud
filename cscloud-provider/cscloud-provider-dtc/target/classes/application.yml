@@ -10,7 +10,7 @@ spring:
     name: 'cscloud-provider-dtc'
    datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url:  jdbc:mysql://localhost:3306/kefu
+    url:  jdbc:mysql://localhost:3306/kefu?useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123456
@@ -19,7 +19,19 @@ spring:
       max-idle: 8
       initial-size: 10
 
+
 mybatis:
   mapper-locations:
   - classpath:/mapper/*.xml
+
+logging:
+  level:
+    com.clcloud.provider.mapper: DEBUG
+    
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
     
