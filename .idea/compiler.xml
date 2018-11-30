@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cscloud-apollo" />
         <module name="cscloud-common-base" />
+        <module name="cscloud-common-config" />
         <module name="cscloud-common-core" />
         <module name="cscloud-common-util" />
         <module name="cscloud-eureka" />
@@ -26,6 +27,7 @@
       <module name="cscloud-apollo" target="1.8" />
       <module name="cscloud-common" target="1.8" />
       <module name="cscloud-common-base" target="1.8" />
+      <module name="cscloud-common-config" target="1.8" />
       <module name="cscloud-common-core" target="1.8" />
       <module name="cscloud-common-util" target="1.8" />
       <module name="cscloud-eureka" target="1.8" />
