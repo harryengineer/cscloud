@@ -5,5 +5,6 @@
     <artifactId>cscloud-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  	<packaging>jar</packaging>
   <artifactId>cscloud-provicer-msc</artifactId>
 </project>

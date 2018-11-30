@@ -9,6 +9,7 @@
 	</parent>
 	<artifactId>cscloud-provider-dtc</artifactId>
 	<name>cscloud-provider-dtc</name>
+		<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

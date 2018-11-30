@@ -1,4 +1,4 @@
-package com.cscloud.provider.usc.service.impl;
+package com.cscloud.provider.service.impl;
 
 import javax.annotation.Resource;
 
@@ -7,10 +7,15 @@ import org.springframework.stereotype.Service;
 import com.cscloud.common.util.wrapper.Wrapper;
 import com.cscloud.provider.api.model.StatisticDto;
 import com.cscloud.provider.api.service.DtcStatisticFeignApi;
-import com.cscloud.provider.usc.service.UserDetailService;
+import com.cscloud.provider.service.UserDetailService;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 用户的细节类
+ * @author Administrator
+ *
+ */
 @Service
 @Slf4j
 public class UserDetailServiceImpl implements UserDetailService {
@@ -19,9 +24,8 @@ public class UserDetailServiceImpl implements UserDetailService {
 	private DtcStatisticFeignApi dtcStatisticFeignApi;
 
 	@Override
-	public String getUserDetailById(Integer id) {
+	public StatisticDto getUserDetailById(Integer id) {
 		try {
-			System.out.println("==================" + id );
 			Wrapper<StatisticDto> wrapper = dtcStatisticFeignApi.getByStatisticId(id);
 			if (wrapper == null) {
 				throw new RuntimeException();
@@ -29,7 +33,7 @@ public class UserDetailServiceImpl implements UserDetailService {
 			
 			log.info(wrapper.toString());
 			if (wrapper.whetherSuccess()) {
-				return wrapper.getData().toString();
+				return wrapper.getData();
 			}
 			
 			return null;

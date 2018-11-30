@@ -1,4 +1,4 @@
-package com.cscloud.provider.usc;
+package com.cscloud.provider;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -10,9 +10,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @author Administrator
  *
  */
+@EnableFeignClients
 @EnableEurekaClient
-@SpringBootApplication(scanBasePackages = "com.cscloud.provider.usc")
-@EnableFeignClients(basePackages = "com.cscloud.provider.api.service")
+@SpringBootApplication
 public class CsCloudUscApplication {
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(CsCloudUscApplication.class).run(args);

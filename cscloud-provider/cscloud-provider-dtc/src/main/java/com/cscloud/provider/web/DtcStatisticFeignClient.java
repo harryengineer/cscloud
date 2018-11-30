@@ -2,7 +2,6 @@ package com.cscloud.provider.web;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,7 +17,7 @@ import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@Api(value = "API - DtcStatisticFeignClient",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@Api(value = "API - DtcStatisticFeignClient",produces = "application/json")
 @Slf4j
 public class DtcStatisticFeignClient  implements DtcStatisticFeignApi {
 

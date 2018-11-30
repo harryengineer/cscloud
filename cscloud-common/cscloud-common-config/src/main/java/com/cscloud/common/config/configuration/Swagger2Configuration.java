@@ -6,7 +6,6 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 
 import com.cscloud.common.config.properties.PaasCsCloudProperties;
@@ -32,10 +31,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  *
  */
 @EnableSwagger2
+@SuppressWarnings("all")
 public class Swagger2Configuration {
 
-	@Value(value = "${swagger.enabled}")
-	private Boolean swaggerEnabled;
+//	@Value(value = "${swagger.enabled}")
+//	private Boolean swaggerEnabled;
 
 	@Resource
 	private PaasCsCloudProperties paascloudProperties;
@@ -50,7 +50,7 @@ public class Swagger2Configuration {
 
 		return new Docket(DocumentationType.SWAGGER_2)
 				//是否开启
-				.enable(paascloudProperties.getSwagger().getEnabled())
+//				.enable(paascloudProperties.getSwagger().getEnabled())
 				.apiInfo(apiInfo())
 				.select()
 				.apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))

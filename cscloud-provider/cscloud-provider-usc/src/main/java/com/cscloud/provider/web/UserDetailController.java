@@ -1,12 +1,12 @@
-package com.cscloud.provider.usc.web;
+package com.cscloud.provider.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cscloud.provider.usc.service.UserDetailService;
-import com.netflix.ribbon.proxy.annotation.Http.HttpMethod;
+import com.cscloud.common.util.wrapper.Wrapper;
+import com.cscloud.provider.api.model.StatisticDto;
+import com.cscloud.provider.service.UserDetailService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -20,14 +20,12 @@ public class UserDetailController {
 	@Autowired
 	private UserDetailService userDetailService;
 	
-	@RequestMapping(value = "/getUserDetailById",method = RequestMethod.GET)
+	@SuppressWarnings("unchecked")
+	@RequestMapping(value = "/getUserDetailById")
 	@ApiOperation(value = "这个是通过用户的id获取用户细节",httpMethod = "GET")
-	public String getUserDetailById(@ApiParam(value = "是对应的id", name = "id")Integer id) {
-		return userDetailService.getUserDetailById(id);
+	public Wrapper<StatisticDto> getUserDetailById(@ApiParam(value = "是对应的id", name = "id")Integer id) {
+		System.out.println(id);
+		 StatisticDto statisticDto = userDetailService.getUserDetailById(id);
+		return Wrapper.success(statisticDto);
 	}
-	
-	
-	
-	
-
 }
