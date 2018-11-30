@@ -26,13 +26,14 @@
 		<spring.mybatis.version>1.3.2</spring.mybatis.version>
 		<tk.mybatis.version>2.0.4</tk.mybatis.version>
 		<springfox.version>2.9.2</springfox.version>
+		<swagger.butler>1.2.0</swagger.butler>
 	</properties>
 
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -43,6 +44,11 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid-spring-boot-starter</artifactId>
 				<version>1.1.10</version>
+			</dependency>
+			<dependency>
+				<groupId>com.didispace</groupId>
+				<artifactId>swagger-butler-core</artifactId>
+				<version>${swagger.butler}</version>
 			</dependency>
 
 			<dependency>
@@ -73,11 +79,11 @@
 				<artifactId>cscloud-common-core</artifactId>
 				<version>${cscloud.version}</version>
 			</dependency>
-			 <dependency>
-        	 <groupId>com.zhang</groupId>
-        	 <artifactId>cscloud-common-config</artifactId>
-        	 <version>${cscloud.version}</version>
-        </dependency>
+			<dependency>
+				<groupId>com.zhang</groupId>
+				<artifactId>cscloud-common-config</artifactId>
+				<version>${cscloud.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.zhang</groupId>
 				<artifactId>cscloud-provider-api-dtc</artifactId>
@@ -123,8 +129,8 @@
 		<module>cscloud-common</module>
 		<module>cscloud-provider-api</module>
 	</modules>
-	
-	
+
+
 	<build>
 		<plugins>
 			<plugin>

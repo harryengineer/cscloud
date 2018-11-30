@@ -3,6 +3,10 @@ package com.cscloud.provider.api.model;
 import java.io.Serializable;
 import java.util.Date;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -35,7 +39,11 @@ public class StatisticDto implements Serializable{
 	@ApiModelProperty(name = "replyNum",value = "统计回答数量",example = "1")
 	private Integer replyNum;
 	@ApiModelProperty(name = "createTime",value = "创建时间",example = "1")
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
 	private Date createTime;
 	@ApiModelProperty(name = "loginTime",value = "登录时间",example = "1")
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
 	private Date loginTime;	
 }

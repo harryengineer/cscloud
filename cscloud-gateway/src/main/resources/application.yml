@@ -6,4 +6,14 @@ spring:
     active: dev
   application:
     name: '@pom.artifactId@'
-  
+  cloud:
+    gateway:
+      routes:
+        - id: user
+          uri: localhost:8803
+          predicates:
+          - Path=/user/**
+            
+          
+      
+      

@@ -5,6 +5,11 @@ import org.springframework.context.annotation.Configuration;
 
 import com.cscloud.common.config.properties.PaasCsCloudProperties;
 
+/**
+ *  将自动配置的文件PaasCsCloudProperties交给spring去管理的
+ * @author Administrator
+ *
+ */
 @Configuration
 @EnableConfigurationProperties(PaasCsCloudProperties.class)
 public class CsCloudCoreConfig {

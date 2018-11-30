@@ -27,15 +27,13 @@ public class BaseEntity implements Serializable{
 	/**
 	 * 格式化对应的
 	 */
-	@Column(name = "created_time")
+	@Column(name = "create_time")
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 	private Date createTime;
 	
 	
 	@Column(name = "update_time")
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 	private Date updateTime;
 	
 	
