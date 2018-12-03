@@ -1,16 +1,17 @@
 server:
   port: 8804
-
- 
-
 spring:
-   profiles:
+  zipkin:
+     discovery-client-enabled: true
+     base-url:  http://localhost:9411
+     enabled: true
+  profiles:
     active: dev
-   application:
-    name: 'cscloud-provider-dtc'
-   datasource:
+  application:
+    name: cscloud-provider-dtc
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url:  jdbc:mysql://localhost:3306/kefu?useSSL=false
+    url: jdbc:mysql://localhost:3306/kefu?useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123456
@@ -19,19 +20,30 @@ spring:
       max-idle: 8
       initial-size: 10
 
-
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+ 
+      
 mybatis:
   mapper-locations:
   - classpath:/mapper/*.xml
-
 logging:
   level:
     com.clcloud.provider.mapper: DEBUG
-    
-
 pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
-    
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+app:
+  id: cscloud-provider-dtc
+apollo:
+  meta: 192.168.51.40:8080
+  bootstrap:
+    enabled: true

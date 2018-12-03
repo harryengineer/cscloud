@@ -1,8 +1,12 @@
 spring:
+  zipkin:
+     discovery-client-enabled: true
+     base-url:  http://localhost:9411
+     enabled: true
   profiles:
     active: dev
   application:
-    name: '@pom.artifactId@'
+    name: cscloud-provider-usc
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:  jdbc:mysql://localhost:3306/kefu
@@ -16,9 +20,19 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-      
+
+feign:
+  hystrix:
+    enabled: true   
 
 server:
   port: 8803
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
   
   

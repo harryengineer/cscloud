@@ -3,18 +3,18 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
     
-#zuul:
-#  routes:
-#    user:
-#       path: /user/**
-#       serviceId:  cscloud-provider-usc
-#    monitor:
-#       path: /monitor/**
-#       serviceId: cscloud-monitor
-#    dtc:
-#      path: /dtc/**
-#      serviceId:  cscloud-provider-dtc
-#      
+zuul:
+  routes:
+    user:
+       path: /user/**
+       serviceId:  cscloud-provider-usc
+    monitor:
+       path: /monitor/**
+       serviceId: cscloud-monitor
+    dtc:
+      path: /dtc/**
+      serviceId:  cscloud-provider-dtc
+      
  
 
 swagger:

@@ -3,6 +3,7 @@ package com.cscloud.provider;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
@@ -13,6 +14,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @EnableEurekaClient
 @SpringBootApplication
+@EnableHystrix
 public class CsCloudUscApplication {
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(CsCloudUscApplication.class).run(args);

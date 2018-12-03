@@ -3,7 +3,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
 
-
   
 
      
