@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" filepath="$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-util/cscloud-common-util.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-util/cscloud-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" filepath="$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" />
