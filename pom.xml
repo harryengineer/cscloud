@@ -128,6 +128,7 @@
 		<module>cscloud-provider</module>
 		<module>cscloud-common</module>
 		<module>cscloud-provider-api</module>
+		<module>cscloud-auth</module>
 	</modules>
 
 

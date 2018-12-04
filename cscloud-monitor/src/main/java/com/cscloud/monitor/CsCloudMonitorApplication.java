@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
 
 /**
- * 监控类(包括监控设置）
+ * 监控类(包括监控设置),包括熔断
  * @author Administrator
  *
  */

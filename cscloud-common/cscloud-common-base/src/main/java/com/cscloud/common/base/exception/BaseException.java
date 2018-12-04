@@ -10,20 +10,15 @@
  */
 package com.cscloud.common.base.exception;
 
-
-import com.cscloud.common.util.wrapper.ErrorCode;
-
-import lombok.extern.slf4j.Slf4j;
-
-
+import com.cscloud.common.base.constant.ErrorCode;
 
 /**
- * 业务异常.
+ * 业务异常的基本类
  *
  * @author Administrator
  */
 
-public class BusinessException extends RuntimeException {
+public class BaseException extends RuntimeException {
 
 	/**
 	 * 异常码
@@ -32,32 +27,32 @@ public class BusinessException extends RuntimeException {
 
 	private static final long serialVersionUID = 3160241586346324994L;
 
-	public BusinessException() {
+	public BaseException() {
 	}
 
-	public BusinessException(Throwable cause) {
+	public BaseException(Throwable cause) {
 		super(cause);
 	}
 
-	public BusinessException(String message) {
+	public BaseException(String message) {
 		super(message);
 	}
 
-	public BusinessException(String message, Throwable cause) {
+	public BaseException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
-	public BusinessException(int code, String message) {
+	public BaseException(int code, String message) {
 		super(message);
 		this.code = code;
 	}
 
-	public BusinessException(int code, String msgFormat, Object... args) {
+	public BaseException(int code, String msgFormat, Object... args) {
 		super(String.format(msgFormat, args));
 		this.code = code;
 	}
 
-	public BusinessException(ErrorCode errorCode, Object... args) {
+	public BaseException(ErrorCode errorCode, Object... args) {
 		super(String.format(errorCode.getMessage(), args));
 		this.code = Integer.valueOf(errorCode.getCode());
 	}

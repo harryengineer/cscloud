@@ -2,7 +2,7 @@ package com.cscloud.provider.api.service.hystrix;
 
 import org.springframework.stereotype.Component;
 
-import com.cscloud.common.util.wrapper.Wrapper;
+import com.cscloud.common.base.wrapper.Wrapper;
 import com.cscloud.provider.api.model.StatisticDto;
 import com.cscloud.provider.api.service.DtcStatisticFeignApi;
 

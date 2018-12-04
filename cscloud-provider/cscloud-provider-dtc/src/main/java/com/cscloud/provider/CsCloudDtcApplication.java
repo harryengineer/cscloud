@@ -7,6 +7,10 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
+/**
+ * 数据服务中心
+ * @author Administrator
+ */
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients

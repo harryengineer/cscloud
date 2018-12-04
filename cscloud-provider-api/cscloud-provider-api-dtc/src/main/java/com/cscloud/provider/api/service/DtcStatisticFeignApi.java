@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.cscloud.common.util.wrapper.Wrapper;
+import com.cscloud.common.base.wrapper.Wrapper;
 import com.cscloud.provider.api.model.StatisticDto;
 import com.cscloud.provider.api.service.hystrix.DtcStatisticFeignApiHystrix;
 

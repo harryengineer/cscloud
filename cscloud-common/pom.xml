@@ -12,6 +12,5 @@
   	<module>cscloud-common-util</module>
   	<module>cscloud-common-core</module>
   	<module>cscloud-common-config</module>
-  	<module>cscloud-common-security-core</module>
   </modules>
 </project>

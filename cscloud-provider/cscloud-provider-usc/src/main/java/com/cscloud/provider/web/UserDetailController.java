@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cscloud.common.util.wrapper.Wrapper;
+import com.cscloud.common.base.wrapper.Wrapper;
 import com.cscloud.provider.api.model.StatisticDto;
 import com.cscloud.provider.service.UserDetailService;
 

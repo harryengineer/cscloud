@@ -41,6 +41,8 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+  
+# apollo的对应的配置
 app:
   id: cscloud-provider-dtc
 apollo:

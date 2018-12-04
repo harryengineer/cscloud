@@ -1,14 +1,3 @@
-/*
- * Copyright (c) 2018. paascloud.net All Rights Reserved.
- * 项目名称：paascloud快速搭建企业级分布式微服务平台
- * 类名称：BaseService.java
- * 创建人：刘兆明
- * 联系方式：paascloud.net@gmail.com
- * 开源地址: https://github.com/paascloud
- * 博客地址: http://blog.paascloud.net
- * 项目官网: http://paascloud.net
- */
-
 package com.cscloud.common.core.support;
 
 import java.util.List;
@@ -18,12 +7,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.cscloud.common.base.exception.BusinessException;
+import com.cscloud.common.base.exception.BaseException;
 
 import tk.mybatis.mapper.common.Mapper;
 
 /**
- * 在原有的基础上进行进一层的封装
+ * 在原有的基础上进行进一层的封装，避免service层写对应的实现类
  * @author Administrator
  *
  * @param <T>
@@ -199,7 +188,7 @@ public abstract class BaseService<T> implements IService<T> {
 			int count = mapper.delete(record);
 			if (count < 1) {
 				logger.error("删除数据失败");
-				throw new BusinessException("删除数据失败!");
+				throw new BaseException("删除数据失败!");
 			}
 			result += count;
 		}

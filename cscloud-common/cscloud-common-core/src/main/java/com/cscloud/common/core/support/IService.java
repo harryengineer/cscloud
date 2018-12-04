@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * 通用接口
+ * 通用接口,用于service提供对应的接口服务
  * @author Administrator
  *
  * @param <T>

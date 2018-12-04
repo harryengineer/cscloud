@@ -18,7 +18,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.zhang</groupId>
-			<artifactId>cscloud-common-util</artifactId>
+			<artifactId>cscloud-common-base</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
