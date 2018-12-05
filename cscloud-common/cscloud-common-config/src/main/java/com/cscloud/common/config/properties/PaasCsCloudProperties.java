@@ -3,7 +3,7 @@ package com.cscloud.common.config.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import com.cscloud.common.base.constant.GlobalConstant;
+import com.cscloud.common.base.constant.GlobalConstants;
 
 import lombok.Data;
 /**
@@ -13,7 +13,7 @@ import lombok.Data;
  */
 @Data
 //@Component 在这个项目中，没有办法注入对应的类，所以只能交给@EnableConfigurationProperties,获取c创建bean
-@ConfigurationProperties(prefix = GlobalConstant.ROOT_PREFIX)
+@ConfigurationProperties(prefix = GlobalConstants.ROOT_PREFIX)
 public class PaasCsCloudProperties {
 	
 	private SwaggerProperties swagger = new SwaggerProperties();

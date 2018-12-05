@@ -2,7 +2,7 @@ package com.cscloud.common.config.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import com.cscloud.common.base.constant.GlobalConstant;
+import com.cscloud.common.base.constant.GlobalConstants;
 
 import lombok.Data;
 
@@ -13,7 +13,7 @@ import lombok.Data;
  *
  */
 @Data
-@ConfigurationProperties(prefix = GlobalConstant.SWAGGER2_PREFIX)
+@ConfigurationProperties(prefix = GlobalConstants.SWAGGER2_PREFIX)
 public class SwaggerProperties {
 	private String title;
 

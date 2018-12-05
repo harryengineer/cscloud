@@ -39,12 +39,12 @@
 			<artifactId>mapper-spring-boot-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.zhang</groupId>
-			<artifactId>cscloud-common-core</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid-spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.zhang</groupId>
+			<artifactId>cscloud-common-core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.zhang</groupId>

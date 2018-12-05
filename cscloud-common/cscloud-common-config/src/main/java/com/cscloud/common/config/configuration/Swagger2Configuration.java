@@ -7,6 +7,7 @@ import java.util.List;
 import javax.annotation.Resource;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import com.cscloud.common.config.properties.PaasCsCloudProperties;
 import com.cscloud.common.config.properties.SwaggerProperties;
@@ -32,6 +33,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @EnableSwagger2
 @SuppressWarnings("all")
+@Configuration
 public class Swagger2Configuration {
 
 //	@Value(value = "${swagger.enabled}")
@@ -42,7 +44,6 @@ public class Swagger2Configuration {
 
 	/**
 	 * Reservation api docket.
-	 *
 	 * @return the docket
 	 */
 	@Bean
