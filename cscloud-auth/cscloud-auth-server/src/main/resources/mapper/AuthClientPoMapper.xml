@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+        <!--你接口的包名是com.abc.dao,接口名是NameMapper.java，那么你的mapper.xml的namespace应该是com.abc.dao.NameMapper-->
+<mapper namespace="com.cscloud.auth.server.domain.AuthClientPo" >
+	<select id="getAllowedClient" resultType="java.lang.String">
+			SELECT
+				b.client_id
+			FROM
+				auth_client a
+			INNER JOIN auth_client_operate b ON a.id = b.service_id
+			WHERE
+				b.service_id = #{clientId}
+	</select>
+
+
+</mapper>

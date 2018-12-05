@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zhang</groupId>
+    <artifactId>cscloud-master</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>cscloud-auth</artifactId>
+  <packaging>pom</packaging>
+  
+  <dependencies>
+  		<!-- 注册中心客户端 -->
+  		<dependency>
+  			<groupId>org.springframework.cloud</groupId>
+  			<artifactId>
+  				spring-cloud-netflix-eureka-client
+  			</artifactId>
+  		</dependency>
+  		<!--  服务调用feign -->
+  		<dependency>
+  			<groupId>org.springframework.cloud</groupId>
+  			<artifactId>spring-cloud-starter-openfeign</artifactId>
+  		</dependency>
+  		<!-- 文档的依赖 -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.zhang</groupId>
+			<artifactId>cscloud-common-core</artifactId>
+		</dependency>
+
+  </dependencies>
+  <modules>
+  	<module>cscloud-auth-server</module>
+  	<module>cscloud-auth-client</module>
+  	<module>cscloud-auth-admin</module>
+  	<module>cscloud-auth-common</module>
+  </modules>
+  
+</project>

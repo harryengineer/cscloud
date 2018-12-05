@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: cscloud-auth-server
+  redis:
+    host: 192.168.0.241
+    database: 8
+    password: huisou
+    ssl: false
+# 数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kefu?useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      initial-size: 10
+      
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
+mybatis:
+  mapper-locations:
+  - classpath:mapper/**.xml
+ 
+  
+server:
+  port: 8809
+
+
+feign:
+  client:
+    config:
+      cscloud-auth-admin: 
+        requestInterceptors: 
+          -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
+      
+
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+
+# jwt 的3个重要的数据认证  token-header是认证类型
+# 这个是服务和服务之间的
+# client是身份的id  ，rsa-secret 是rsa 的私钥,expire单位是秒,secret是登录的密码
+client: 
+  token-header: x-client-token
+  client: cscloud-auth-server
+  rsa-secret: 123456
+  expire: 3600 
+  secret: sdfsdfjsopdfupsod
+
+# 这个是用户访问的权限认证
+jwt:
+  token-header: Authorization
+  expire: 14400
+  rsa-secret: xx1WET12^%3^(WE45
+    
