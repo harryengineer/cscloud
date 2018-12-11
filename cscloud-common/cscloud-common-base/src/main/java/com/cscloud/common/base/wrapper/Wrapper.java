@@ -7,7 +7,8 @@ import com.cscloud.common.base.constant.ErrorCode;
 
 import lombok.Data;
 /**
- * json字符串的返回值
+ *  包装类，将json的转换交给了mvc的视图转化器，已经feign的转换器
+ *  不行最后统一用自己jackson转换器
  * @author Administrator
  *
  * @param <T>
@@ -67,19 +68,19 @@ public class Wrapper<T> implements Serializable {
     /*
      * 快速创建成功或者失败
      */
-    public static <T>Wrapper success(){
+    public static <T>Wrapper<T> success(){
         return new Wrapper<T>(SUCCESS_CODE,"请求成功",null);
     }
 
-    public static <T>Wrapper success(T result){
+    public static <T>Wrapper<T> success(T result){
         return new Wrapper<T>(SUCCESS_CODE,"请求成功",result);
     }
 
-    public static <T>Wrapper success(String message, T result){
+    public static <T>Wrapper<T> success(String message, T result){
         return new Wrapper<T>(SUCCESS_CODE,message,result);
     }
 
-    public static <T>Wrapper success(String message, T result, Map<String, Object> extra){
+    public static <T>Wrapper<T> success(String message, T result, Map<String, Object> extra){
         return new Wrapper<T>(SUCCESS_CODE,message,result, extra);
     }
     
@@ -94,35 +95,35 @@ public class Wrapper<T> implements Serializable {
     
 
     //快速返回失败状态
-    public static <T>Wrapper fail(){
+    public static <T>Wrapper<T> fail(){
         return new Wrapper<T>(ErrorCode.SYSTEM_ERROR.getCode(),ErrorCode.SYSTEM_ERROR.getMessage());
     }
 
-    public static <T>Wrapper fail(T result){
+    public static <T>Wrapper<T> fail(T result){
         return new Wrapper<T>(ErrorCode.SYSTEM_ERROR.getCode(),ErrorCode.SYSTEM_ERROR.getMessage(),result);
     }
     
-    public <T>Wrapper fail(String message, T result){
+    public Wrapper<T> fail(String message, T result){
         return new Wrapper<T>(ErrorCode.SYSTEM_ERROR.getCode(),message,result);
     }
 
-    public <T>Wrapper fail(String message, T result, Map<String, Object> extra){
+    public Wrapper<T> fail(String message, T result, Map<String, Object> extra){
         return new Wrapper<T>(ErrorCode.SYSTEM_ERROR.getCode(),message,result, extra);
     }
 
-    public static <T>Wrapper fail(ErrorCode errorCode){
+    public static <T>Wrapper<T> fail(ErrorCode errorCode){
         return new Wrapper<T>(errorCode.getCode(),errorCode.getMessage());
     }
 
-    public static <T>Wrapper fail(ErrorCode errorCode, T result){
+    public static <T>Wrapper<T> fail(ErrorCode errorCode, T result){
         return new Wrapper<T>(errorCode.getCode(),errorCode.getMessage(),result);
     }
 
-    public static <T>Wrapper fail(ErrorCode errorCode, String message, T result){
+    public static <T>Wrapper<T> fail(ErrorCode errorCode, String message, T result){
         return new Wrapper<T>(errorCode.getCode(),message,result);
     }
 
-    public static <T>Wrapper fail(ErrorCode errorCode, String message, T result, Map<String, Object> extra){
+    public static <T>Wrapper<T> fail(ErrorCode errorCode, String message, T result, Map<String, Object> extra){
         return new Wrapper<T>(errorCode.getCode(),message,result, extra);
     }
 
@@ -132,15 +133,15 @@ public class Wrapper<T> implements Serializable {
      * @param message
      * @return
      */
-    public static <T>Wrapper result(int statusCode, String message){
+    public static <T>Wrapper<T> result(int statusCode, String message){
         return new Wrapper<T>(statusCode,message);
     }
 
-    public static <T>Wrapper result(int statusCode, String message, T result){
+    public static <T>Wrapper<T> result(int statusCode, String message, T result){
         return new Wrapper<T>(statusCode,message,result);
     }
 
-    public static <T>Wrapper result(int statusCode, String message, T result, Map<String, Object> extra){
+    public static <T>Wrapper<T> result(int statusCode, String message, T result, Map<String, Object> extra){
         return new Wrapper<T>(statusCode,message,result, extra);
     }
 
@@ -148,15 +149,15 @@ public class Wrapper<T> implements Serializable {
     /*
      * /快速返回Http状态
      */
-    public static <T>Wrapper httpStatus(HttpStatus httpStatus, String message){
+    public static <T>Wrapper<T> httpStatus(HttpStatus httpStatus, String message){
         return result(httpStatus.value(),message);
     }
 
-    public static <T>Wrapper httpStatus(HttpStatus httpStatus, String message, T result){
+    public static <T>Wrapper<T> httpStatus(HttpStatus httpStatus, String message, T result){
         return result(httpStatus.value(),message,result);
     }
 
-    public static <T>Wrapper httpStatus(HttpStatus httpStatus, String message, T result, Map<String, Object> extra){
+    public static <T>Wrapper<T> httpStatus(HttpStatus httpStatus, String message, T result, Map<String, Object> extra){
         return result(httpStatus.value(),message,result, extra);
     }
 

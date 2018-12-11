@@ -14,8 +14,6 @@ public class ClientJwtInfoDto implements IJWTInfo {
 	private String id;
 	
 	private String name;
-	
-	
 
 	public ClientJwtInfoDto(String clientName, String id, String name) {
 		super();

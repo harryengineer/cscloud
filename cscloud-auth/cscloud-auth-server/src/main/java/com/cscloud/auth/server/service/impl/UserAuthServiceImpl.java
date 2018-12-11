@@ -33,12 +33,17 @@ public class UserAuthServiceImpl implements UserAuthService {
 		if (userInfo != null && userInfo.getId() != null) {
 			return userTokenUtils.generateToken(new JWTInfo(userInfo.getUsername(), userInfo.getId().toString(), userInfo.getName()));
 		}
-		throw new BaseException(ErrorCode.USER_NO_EXIST.getCode(), ErrorCode.USER_NO_EXIST.getMessage());
+		throw new BaseException(ErrorCode.USER_NO_EXIST);
 	}
 
 	@Override
 	public String refresh(String token) throws Exception {
 		return userTokenUtils.generateToken(userTokenUtils.getInfoFromToken(token));
+	}
+
+	@Override
+	public void verfity(String token) throws Exception {
+		userTokenUtils.getInfoFromToken(token);
 	}
 
 }

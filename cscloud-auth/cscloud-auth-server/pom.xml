@@ -32,6 +32,10 @@
 			<artifactId>cscloud-auth-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-	
+		<dependency>
+			<groupId>com.zhang</groupId>
+			<artifactId>cscloud-common-config</artifactId>
+		</dependency>
+
 	</dependencies>
 </project>

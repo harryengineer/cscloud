@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.cscloud.common.base.exception.BaseException;
+import com.cscloud.common.core.mybatis.MyMapper;
 
 import tk.mybatis.mapper.common.Mapper;
 
@@ -17,7 +18,7 @@ import tk.mybatis.mapper.common.Mapper;
  *
  * @param <T>
  */
-public abstract class BaseService<T> implements IService<T> {
+public abstract class BaseService<M extends MyMapper<T>,T> implements IService<T> {
 
 	/**
 	 * The Logger.
@@ -28,7 +29,7 @@ public abstract class BaseService<T> implements IService<T> {
 	 * The Mapper.
 	 */
 	@Autowired
-	protected Mapper<T> mapper;
+	protected M mapper;
 
 	/**
 	 * Gets mapper.
@@ -258,6 +259,20 @@ public abstract class BaseService<T> implements IService<T> {
 		return mapper.selectByExampleAndRowBounds(example, rowBounds);
 	}
 
+//	 public String selectByQuery(LinkedHashMap<K, V> query) {
+//	        Class<T> clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[1];
+//	        Example example = new Example(clazz);
+//	        if(query.entrySet().size()>0) {
+//	            Example.Criteria criteria = example.createCriteria();
+//	            for (Map.Entry<String, Object> entry : query.entrySet()) {
+//	                criteria.andLike(entry.getKey(), "%" + entry.getValue().toString() + "%");
+//	            }
+//	        }
+//	        Page<Object> result = PageHelper.startPage(query.getPage(), query.getLimit());
+//	        return ResUtils.okRes(result);
+//	    }
+	
+	
 	/**
 	 * 获取唯一的generate的id
 	 * @return

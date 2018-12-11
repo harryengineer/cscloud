@@ -140,7 +140,14 @@ public class RSAUtils{
         KeyPair keyPair = keyPairGenerator.genKeyPair();
         return keyPair.getPrivate().getEncoded();
     }
-
+    
+    /**
+     * 通过私钥随机生成对应的公钥
+     * @param password
+     * @return
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
     public static Map<String, byte[]> generateKey(String password) throws IOException, NoSuchAlgorithmException {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
         SecureRandom secureRandom = new SecureRandom(password.getBytes());

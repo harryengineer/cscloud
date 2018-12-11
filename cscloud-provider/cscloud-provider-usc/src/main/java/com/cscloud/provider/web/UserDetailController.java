@@ -14,7 +14,7 @@ import io.swagger.annotations.ApiParam;
 
 @RestController
 @Api(value = "/userDetail",tags= {"这是个描述用户细节的类"})
-@RequestMapping("/userDetail")
+@RequestMapping("/test")
 public class UserDetailController {
 	
 	@Autowired
@@ -27,5 +27,11 @@ public class UserDetailController {
 		System.out.println(id);
 		 StatisticDto statisticDto = userDetailService.getUserDetailById(id);
 		return Wrapper.success(statisticDto);
+	}
+	
+	@RequestMapping(value = "/helloworld")
+	public Wrapper  hello(String test) {
+		System.out.println("=====");
+		return Wrapper.success("hello");
 	}
 }

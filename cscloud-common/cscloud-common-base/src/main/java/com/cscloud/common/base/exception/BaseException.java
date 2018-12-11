@@ -21,7 +21,7 @@ import com.cscloud.common.base.constant.ErrorCode;
 public class BaseException extends RuntimeException {
 
 	/**
-	 * 异常码
+	 * 异常码,这个用在Okhttp中的Inteceptor，可以正好匹配到
 	 */
 	protected int code;
 

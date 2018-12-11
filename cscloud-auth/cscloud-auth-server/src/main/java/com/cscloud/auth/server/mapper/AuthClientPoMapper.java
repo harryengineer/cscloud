@@ -11,7 +11,10 @@ import com.cscloud.common.core.mybatis.MyMapper;
  *
  */
 public interface AuthClientPoMapper extends MyMapper<AuthClientPo> {
-
+	
+	/**
+	 * 通过clientid获取本机允许访问的所有的client的资源code。
+	 */
 	List<String> getAllowedClient(String clientId);
 
 }

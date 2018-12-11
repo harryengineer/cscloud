@@ -1,4 +1,4 @@
-package com.cscloud;
+package com.cscloud.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

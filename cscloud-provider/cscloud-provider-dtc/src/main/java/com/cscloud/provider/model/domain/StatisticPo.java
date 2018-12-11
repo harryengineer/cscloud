@@ -3,12 +3,14 @@ package com.cscloud.provider.model.domain;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.apache.ibatis.type.Alias;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import com.cscloud.common.core.mybatis.BaseEntity;
 
@@ -21,12 +23,11 @@ import lombok.ToString;
  * @author Administrator
  *
  */
-@EqualsAndHashCode(callSuper = true)
 @Data
 @ToString(callSuper = true)
 @Table(name= "cs_statistics_info")
 @Alias(value = "statisticPo")
-public class StatisticPo extends BaseEntity implements Serializable {
+public class StatisticPo implements Serializable {
 
 	/**
 	 *  
@@ -43,5 +44,13 @@ public class StatisticPo extends BaseEntity implements Serializable {
 	private Integer transferNum;
 	private Integer replyNum;
 	private Date loginTime;	
+	@Column(name = "upd_time")
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private Date updTime;
+	
+	@Column(name = "crt_time")
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private Date crtTime;
+	
 
 }

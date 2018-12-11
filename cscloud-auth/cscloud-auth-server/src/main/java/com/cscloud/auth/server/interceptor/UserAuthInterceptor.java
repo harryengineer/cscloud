@@ -7,18 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import com.cscloud.auth.common.bean.IJWTInfo;
+import com.cscloud.auth.common.util.BaseContextMap;
 import com.cscloud.auth.server.config.UserAuthConfiguration;
 import com.cscloud.auth.server.util.UserInfoContext;
 import com.cscloud.auth.server.util.user.UserTokenUtils;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
- * 对用户的权限进行认证和拦截
+ * 访问之前解析token数据用户的权限进行认证和拦截
  * @author Administrator
  *
  */
-@Slf4j
 public class UserAuthInterceptor implements HandlerInterceptor {
 	@Autowired
 	private UserAuthConfiguration userAuthConfiguration;
@@ -34,12 +32,11 @@ public class UserAuthInterceptor implements HandlerInterceptor {
 		String token = request.getHeader(userAuthConfiguration.getUserTokenHeader());
 		IJWTInfo ijwtInfo = userTokenUtils.getInfoFromToken(token);
 		
-		
 		//问题:，这里因该对用户的访问权限进行验证才对？？？，
-		UserInfoContext.setToken(token);
-		UserInfoContext.setUserID(ijwtInfo.getId());
-		UserInfoContext.setName(ijwtInfo.getName());
-		UserInfoContext.setUsername(ijwtInfo.getUniqueName());
+		BaseContextMap.setUserToken(token);
+		BaseContextMap.setUserID(ijwtInfo.getId());
+		BaseContextMap.setName(ijwtInfo.getName());
+		BaseContextMap.setUsername(ijwtInfo.getUniqueName());
 		return HandlerInterceptor.super.preHandle(request, response, handler);
 	}
 	

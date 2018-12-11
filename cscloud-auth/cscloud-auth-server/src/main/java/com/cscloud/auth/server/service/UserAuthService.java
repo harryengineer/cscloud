@@ -2,7 +2,6 @@ package com.cscloud.auth.server.service;
 
 
 import com.cscloud.auth.common.bean.RequestAuthentication;
-import com.cscloud.common.base.wrapper.Wrapper;
 
 public interface UserAuthService {
 
@@ -21,5 +20,7 @@ public interface UserAuthService {
 	 * @throws Exception 
 	 */
 	String refresh(String token) throws Exception;
+
+	void verfity(String token) throws Exception;
 
 }

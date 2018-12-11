@@ -40,6 +40,8 @@
 	</dependencies>
 
 	<dependencyManagement>
+	
+	
 		<dependencies>
 			<!-- jwt的工具类 -->
 			<dependency>
@@ -130,6 +132,11 @@
 				<version>${springfox.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>com.github.pagehelper</groupId>
+				<artifactId>pagehelper-spring-boot-starter</artifactId>
+				<version>1.2.9</version>
+			</dependency>
 		</dependencies>
 
 

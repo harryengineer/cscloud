@@ -23,7 +23,9 @@ spring:
 
 feign:
   hystrix:
-    enabled: true   
+    enabled: true
+  okhttp:
+    enabled: true
 
 server:
   port: 8803

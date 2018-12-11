@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class DtcStatisticServiceImpl extends BaseService<StatisticPo> implements DtcStatisticService{
+public class DtcStatisticServiceImpl extends BaseService<StatisticPoMapper,StatisticPo> implements DtcStatisticService{
 	
 	
 	@Autowired

@@ -21,7 +21,7 @@ import com.cscloud.common.core.support.BaseService;
  *
  */
 @Service
-public class AuthClientServiceImpl extends BaseService<AuthClientPo>  implements AuthClientSerivce{
+public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthClientPo>  implements AuthClientSerivce{
 	
 	
 	@Autowired
@@ -45,16 +45,12 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPo>  implements
 		authClientPo.setCode(clientId);
 		AuthClientPo one = authClientPoMapper.selectOne(authClientPo);
 		if (one == null){
-			throw new BaseException(ErrorCode.CLIENT_TOKEN_SIGNATURE_ERROR.getCode(), ErrorCode.CLIENT_TOKEN_SIGNATURE_ERROR.getMessage());
+			throw new BaseException(ErrorCode.CLIENT_TOKEN_SIGNATURE_ERROR);
 		}
 		
 		return one;
 		
 	}
-	
-	/**
-	 * 通过clientid获取本机允许访问的所有的client。
-	 */
 	@Override
 	public List<String> getAllowedClient(String clientId) {
 		List<String> list = authClientPoMapper.getAllowedClient(clientId);
@@ -62,6 +58,25 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPo>  implements
 			list = new ArrayList<>();
 		}
 		return list;
+	}
+
+	@Override
+	public List<String> getAllowedClient(String clientId, String secret) throws Exception {
+		AuthClientPo client = getClient(clientId,secret);
+		return getAllowedClient(String.valueOf(client.getId()));
+		
+	}
+
+	@Override
+	public void validate(String clientId, String secret) {
+		AuthClientPo clientPo = new AuthClientPo();
+		clientPo.setId(Integer.valueOf(clientId));
+		clientPo.setSecret(secret);
+		AuthClientPo po = authClientPoMapper.selectOne(clientPo);
+		if (po == null) {
+			throw new BaseException(ErrorCode.CLIENT_NO_CLIENTID_SECRET);
+		}
+		
 	}
 
 }

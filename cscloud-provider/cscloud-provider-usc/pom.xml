@@ -15,8 +15,12 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		
-
+	<!-- 	<dependency>
+			<artifactId>cscloud-auth-client</artifactId>
+			<groupId>com.zhang</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ -->
 		<dependency>
 			<groupId>com.zhang</groupId>
 			<artifactId>cscloud-provider-api-dtc</artifactId>
@@ -35,6 +39,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>

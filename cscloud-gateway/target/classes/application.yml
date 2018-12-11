@@ -6,6 +6,13 @@ spring:
     active: dev
   application:
     name: cscloud-gateway
-  
-      
-      
+  cloud:
+    gateway:
+      routes:
+      - id: cscloud-provider-usc #转发路径的唯一标识
+        uri: http://127.0.0.1:8803
+        predicates: 
+        - Path=/user/**
+        filters:
+        -  StripPrefix=1
+        

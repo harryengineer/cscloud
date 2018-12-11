@@ -1,12 +1,16 @@
 package com.cscloud.auth.server.config;
 
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.cscloud.auth.server.interceptor.ClientAuthInterceptor;
 import com.cscloud.auth.server.interceptor.UserAuthInterceptor;
+import com.cscloud.common.core.converter.JacksonCustomConverter;
 
 /**
  * 视图配置工具类，用来添加对应的视图配置（拦截器，过滤器，以及其他等
@@ -39,6 +43,14 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
 	@Bean
 	public ClientAuthInterceptor clientAuthInterceptor() {
 		return new ClientAuthInterceptor();
+	}
+	
+	/**
+	 * 修改jackson的date的格式化形式，通过add添加就可以了。
+	 */
+	@Override
+	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+		JacksonCustomConverter.buidMvcMessageConverter(converters);
 	}
 
 }

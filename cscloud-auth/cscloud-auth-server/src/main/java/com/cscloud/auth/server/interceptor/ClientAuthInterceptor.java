@@ -35,7 +35,7 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 	private AuthClientSerivce authClientSerivce;
 
 	/**
-	 * 访问访问之后，判断token是否正确，是否允许该服务访问这个资源， 允许的话，获取对应的请求服务的信息
+	 * 在访问之前判断是否允许该服务访问这个资源， 允许的话，获取对应的请求服务的信息
 	 */
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
@@ -44,10 +44,11 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 		IJWTInfo jwtInfo = clientTokenUtils.getInfoFromToken(token);
 		log.info("the token of client :{}, and the clientId is :{}", token, jwtInfo.getId());
 		if (StringUtils.isBlank(jwtInfo.getUniqueName())) {
-			throw new BaseException(ErrorCode.CLIENT_TOKEN_INFO_ERROR.getCode(),
-					ErrorCode.CLIENT_TOKEN_INFO_ERROR.getMessage());
+			throw new BaseException(ErrorCode.CLIENT_TOKEN_INFO_ERROR);
 		}
-
+		
+		//问题： 缺少过期时间
+		
 		List<String> allowClientNames = authClientSerivce.getAllowedClient(client.getClientId());
 		for (String allowclientName : allowClientNames) {
 			if (jwtInfo.getUniqueName().equals(allowclientName)) {
@@ -56,8 +57,7 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 		}
 		
 		// 没有就抛出异常
-		throw new BaseException(ErrorCode.CLIENT_NO_PERMISSION.getCode(),
-				ErrorCode.CLIENT_NO_PERMISSION.getMessage());
+		throw new BaseException(ErrorCode.CLIENT_NO_PERMISSION);
 
 	}
 

@@ -18,7 +18,7 @@ import lombok.Data;
  */
 @Data
 @ApiModel(value="每个提供服务的认证信息")
-@Table()
+@Table(name = "auth_client")
 public class AuthClientPo {
 	@Id
 	// 这里数据的

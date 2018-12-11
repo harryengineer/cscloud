@@ -7,14 +7,11 @@ import javax.persistence.Column;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import lombok.Data;
-
 /**
  * 这个是所以的实体对象的共有的属性
  * @author Administrator
  *
  */
-@Data
 public class BaseEntity implements Serializable{
 
 	/**
@@ -25,14 +22,9 @@ public class BaseEntity implements Serializable{
 	/**
 	 * 格式化对应的
 	 */
-	@Column(name = "create_time")
+	@Column(name = "crt_time")
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	private Date createTime;
-	
-	
-	@Column(name = "update_time")
-	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	private Date updateTime;
+	private Date crtTime;
 	
 	
 }

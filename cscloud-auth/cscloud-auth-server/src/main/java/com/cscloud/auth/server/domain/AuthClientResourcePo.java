@@ -15,9 +15,9 @@ import lombok.Data;
  *
  */
 @Data
-@ApiModel(value="该服务允许调用的操作对象")
-@Table(name = "auth_client_operate")
-public class AuthClientOperatePo {
+@ApiModel(value="服务实例所能访问的其他服务器")
+@Table(name = "auth_client_resource")
+public class AuthClientResourcePo {
     @Id
     //对于mysq的插入，使用唯一的主键
     private Integer id;

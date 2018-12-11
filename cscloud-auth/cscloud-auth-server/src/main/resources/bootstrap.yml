@@ -4,5 +4,8 @@ eureka:
       defaultZone: http://localhost:8801/eureka/
 
   
-
-     
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true   

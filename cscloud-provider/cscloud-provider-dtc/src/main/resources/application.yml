@@ -23,6 +23,9 @@ spring:
 feign:
   hystrix:
     enabled: true
+  okhttp:
+    enabled: true
+    
 management:
   endpoints:
     web:
@@ -36,12 +39,14 @@ mybatis:
 logging:
   level:
     com.clcloud.provider.mapper: DEBUG
+    
 pagehelper:
   helperDialect: mysql
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
   
+ 
 # apollo的对应的配置
 app:
   id: cscloud-provider-dtc

@@ -36,36 +36,24 @@ feign:
       cscloud-auth-admin: 
         requestInterceptors: 
           -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
-      
-
-      
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    
+  hystrix:
+    enabled: true
+  okhttp:
+    enabled: true
+     
 
 # jwt 的3个重要的数据认证  token-header是认证类型
 # 这个是服务和服务之间的
 # client是身份的id  ，rsa-secret 是rsa 的私钥,expire单位是秒,secret是登录的密码
 client: 
-  token-header: x-client-token
+  token-header: Client-Auth
   client: cscloud-auth-server
   rsa-secret: 123456
   expire: 3600 
   secret: sdfsdfjsopdfupsod
 
 # 这个是用户访问的权限认证
-jwt:
+jwt: 
   token-header: Authorization
   expire: 14400
   rsa-secret: xx1WET12^%3^(WE45

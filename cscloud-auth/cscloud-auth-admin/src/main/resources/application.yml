@@ -1,3 +1,25 @@
 spring:
   application:
     name: cscloud-auth-admin
+  redis:
+    host: 192.168.0.241
+    database: 8
+    password: huisou
+    ssl: false
+# 数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kefu?useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      initial-size: 10
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
+mybatis:
+  mapper-locations:
+  - classpath:mapper/**.xml

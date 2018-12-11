@@ -49,8 +49,16 @@ public class UserAuthController {
 		return Wrapper.success(userService.refresh(token));
 	}
 	
-	
-	
+	/**
+	 * 用来校验用户的 token
+	 * @throws Exception 
+	 * 
+	 */
+	@RequestMapping("/verfity")
+	public Wrapper<String> verfity(String token) throws Exception{
+		userService.verfity(token);
+		return Wrapper.success();
+	}
 	
 
 }

@@ -3,4 +3,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
 
-     
+# 使用okhttp性能比http%15
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true    

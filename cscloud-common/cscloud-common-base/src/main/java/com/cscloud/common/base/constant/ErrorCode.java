@@ -6,12 +6,23 @@ package com.cscloud.common.base.constant;
  *
  */
 public enum ErrorCode {
+		/**
+		 * 系统错误
+		 */
 	    SYSTEM_ERROR(500, "系统错误"),
+	    /**
+	     * 调用成功
+	     */
+	    OK(200,"success"),
+	    /**
+	     * 参数校验错误
+	     */
 	    PARAMETER_CHECK_ERROR(400, "参数校验错误"),
+	    
+	    
 	    AUTH_VALID_ERROR(701, "用户权限不足"),
 	    UNLOGIN_ERROR(401, "用户未登录或登录状态超时失效"),
 	    
-	    //token异常
 	    /**
 	     * 用户的token的超过时间
 	     */
@@ -29,6 +40,12 @@ public enum ErrorCode {
 	 	 *  用户不存在
 	 	 */
 	 	USER_NO_EXIST(40004,"user  is not  exist"),
+	 	/**
+	 	 * 用户权限不足
+	 	 */
+	 	USER_NO_PERMISSION(40005,"user no permission"),
+	 	
+	 	
 		
 		 /**
 	     * 服务的token的超过时间
@@ -51,7 +68,12 @@ public enum ErrorCode {
 		/**
 		 * 该服务没有权限访问这个服务器上的资源
 		 */
-		CLIENT_NO_PERMISSION(41005,"have no permission visit the server");
+		CLIENT_NO_PERMISSION(41005,"have no permission visit the server"),
+		
+		/**
+		 *  通过client和secret没有找到对应的client
+		 */
+		CLIENT_NO_CLIENTID_SECRET(41006,"have no client");
 	
 	
 	
