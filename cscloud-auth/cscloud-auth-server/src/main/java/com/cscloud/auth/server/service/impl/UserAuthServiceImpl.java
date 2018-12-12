@@ -4,15 +4,14 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.cscloud.auth.common.api.UserAuthFeignApi;
+import com.cscloud.auth.api.model.RequestAuthentication;
+import com.cscloud.auth.api.model.UserAuthInfoDto;
+import com.cscloud.auth.api.service.server.UserAuthFeignApi;
 import com.cscloud.auth.common.bean.JWTInfo;
-import com.cscloud.auth.common.bean.RequestAuthentication;
-import com.cscloud.auth.common.dto.UserAuthInfoDto;
 import com.cscloud.auth.server.service.UserAuthService;
 import com.cscloud.auth.server.util.user.UserTokenUtils;
 import com.cscloud.common.base.constant.ErrorCode;
 import com.cscloud.common.base.exception.BaseException;
-import com.cscloud.common.base.wrapper.Wrapper;
 
 /**
  * 用户的远程调用类

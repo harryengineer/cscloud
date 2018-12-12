@@ -16,11 +16,6 @@
   				spring-cloud-netflix-eureka-client
   			</artifactId>
   		</dependency>
-  		<!--  服务调用feign -->
-  		<dependency>
-  			<groupId>org.springframework.cloud</groupId>
-  			<artifactId>spring-cloud-starter-openfeign</artifactId>
-  		</dependency>
   		<!-- 文档的依赖 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -37,6 +32,7 @@
   	<module>cscloud-auth-client</module>
   	<module>cscloud-auth-admin</module>
   	<module>cscloud-auth-common</module>
+  	<module>cscloud-auth-api</module>
   </modules>
   
 </project>

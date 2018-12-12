@@ -15,4 +15,14 @@ spring:
         - Path=/user/**
         filters:
         -  StripPrefix=1
+
         
+gateway.ignore.url: user
+
+auth:
+  user:
+    token-header: Authorization
+  client:
+    token-header:  Client-Auth
+    id: auth-gate  #不填则默认读取spring.application.name
+    secret: 123456

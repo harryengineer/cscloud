@@ -15,7 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @EnableFeignClients// 开启服务调用
 @EnableEurekaClient//注册中心
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages= "com.cscloud.auth.api.service.server")
 @EnableHystrix//熔断器，核心是为了turbin的监控
 @MapperScan("com.cscloud.auth.server.mapper")//mapper的scan的包路径
 @EnableScheduling//开启定时器

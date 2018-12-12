@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cscloud.auth.common.bean.RequestAuthentication;
+import com.cscloud.auth.api.model.RequestAuthentication;
 import com.cscloud.auth.server.service.UserAuthService;
 import com.cscloud.common.base.wrapper.Wrapper;
 
@@ -40,7 +40,7 @@ public class UserAuthController {
 	
 	/**
 	 *用户刷新用的过期时间 
-	 *问题: 其他地方没有用到过期时间
+	 *问题: 其他地方没有用到过期时间（在jsonwebtoken  中自动验证了）
 	 * @throws Exception 
 	 * 
 	 */

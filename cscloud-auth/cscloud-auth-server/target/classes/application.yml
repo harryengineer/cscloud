@@ -46,6 +46,7 @@ feign:
 # 这个是服务和服务之间的
 # client是身份的id  ，rsa-secret 是rsa 的私钥,expire单位是秒,secret是登录的密码
 client: 
+  id: cscloud-auth-server
   token-header: Client-Auth
   client: cscloud-auth-server
   rsa-secret: 123456

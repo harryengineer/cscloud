@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+ <!-- 引入 application.properties -->
+ <properties resource="application.properties" />
+ <!-- MyBatis3Simple：不生成 Example相关类及方法 -->
+ <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+  <property name="beginningDelimiter" value="`" />
+  <property name="endingDelimiter" value="`" />
+  <!-- 指定生成 Mapper 的继承模板 -->
+  <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+   <property name="mappers" value="${generator.mappers}" />
+  </plugin>
+  <!-- 生成 JavaBean 对象重写 toString方法 -->
+  <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+  <!-- 生成 JavaBean 对象继承 Serializable 类 -->
+  <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+  <!-- 生成 JavaBean 对象重写 equals 和 hashCode 方法 -->
+  <!-- <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" /> -->
+  <!-- jdbc 连接配置 -->
+  <jdbcConnection driverClass="${spring.datasource.driver-class-name}"
+   connectionURL="${spring.datasource.url}"
+   userId="${spring.datasource.username}"
+   password="${spring.datasource.password}">
+  </jdbcConnection>
+  <javaModelGenerator targetPackage="${generator.javaModel-targetPackage}"
+   targetProject="${generator.targetProject}" />
+  <sqlMapGenerator targetPackage="${generator.sqlMap-targetPackage}"
+   targetProject="${generator.targetProject}" />
+  <javaClientGenerator targetPackage="${generator.javaClient-targetPackage}"
+   targetProject="${generator.targetProject}" type="XMLMAPPER" />
+  <!-- Mysql 配置 -->
+  <!-- <generatedKey column="id" sqlStatement="Mysql" identity="true" /> -->
+  <!-- Oracle 配置 -->
+  <!-- <generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/> -->
+  <!-- tableName：数据库表名，domainObjectName：生成文件名 ，schema：数据源-->
+  <table tableName="auth_base_element"  domainObjectName="AuthElementPo">
+   <generatedKey column="auth_element_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_group"  domainObjectName="AuthGroupPo">
+   <generatedKey column="auth_group_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_group_leader"  domainObjectName="AuthGroupLeaderPo">
+   <generatedKey column="auth_group_leader_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_group_member"  domainObjectName="AuthGroupMemberPo">
+   <generatedKey column="auth_group_member_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_group_type"  domainObjectName="AuthGroupTypePo">
+   <generatedKey column="auth_group_type_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_menu"  domainObjectName="AuthMenuPo">
+   <generatedKey column="auth_menu_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_resource_authority"  domainObjectName="AuthResourceAuthorityPo">
+   <generatedKey column="resource_authority_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+  <table tableName="auth_base_user"  domainObjectName="AuthUserPo">
+   <generatedKey column="auth_user_id"   sqlStatement="Mysql" identity="true" />
+  </table>
+
+ </context>
+</generatorConfiguration>

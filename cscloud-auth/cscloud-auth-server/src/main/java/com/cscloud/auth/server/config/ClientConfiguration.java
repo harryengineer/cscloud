@@ -18,7 +18,7 @@ public class ClientConfiguration {
     private String clientSecret;
     @Value("${client.token-header:null}")
     private String clientTokenHeader;
-    @Value("#{client.expire}")
+    @Value("${client.expire}")
     private Integer expire;
 	public String getClientId() {
 		return clientId;

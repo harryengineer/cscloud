@@ -24,6 +24,9 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<!-- zipkin服务器boot2.0后面不支持自动配置的版本了，需要自己下载官方的jar包 -->
+		
+		
+		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
