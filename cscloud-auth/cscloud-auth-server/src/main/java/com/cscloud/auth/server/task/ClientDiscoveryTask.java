@@ -4,22 +4,24 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.Scheduled;
 
 import com.cscloud.auth.common.util.UUIDUtils;
 import com.cscloud.auth.server.domain.AuthClientPo;
 import com.cscloud.auth.server.service.AuthClientSerivce;
+import org.springframework.stereotype.Component;
 
 /**
  * 如果有服务注册到注册中心，就将它保存数据库中
  * @author Administrator
  *
  */
-@Configuration
+@Component
+@Slf4j
 public class ClientDiscoveryTask {
-	
+
 	@Resource
 	private DiscoveryClient discoveryClient;
 	@Resource
@@ -28,7 +30,7 @@ public class ClientDiscoveryTask {
 	/**
 	 * 如果有服务注册到注册中心，就将它保存数据库中,并且初始化secret
 	 */
-	@Scheduled(cron = "0 0/1 * * * *")
+	@Scheduled(cron = "0 */1 * * * ?")
 	public void discoveryTask() {
 		List<String> services = discoveryClient.getServices();
 		for (String service : services) {
@@ -40,7 +42,7 @@ public class ClientDiscoveryTask {
 				clientPo.setSecret(UUIDUtils.generateShortUuid());
 				authClientSerivce.save(clientPo);
 			}
-			
+
 		}
 		
 	}

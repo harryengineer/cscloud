@@ -26,6 +26,9 @@ import com.cscloud.auth.api.model.UserPermissionVo;
 import com.cscloud.auth.client.util.UserTokenUtils;
 import com.cscloud.common.base.constant.GlobalConstants;
 
+/**
+ *  权限的使用类
+ */
 @Service
 public class PermissionSerivceImpl  implements PermissionService {
 	 @Autowired

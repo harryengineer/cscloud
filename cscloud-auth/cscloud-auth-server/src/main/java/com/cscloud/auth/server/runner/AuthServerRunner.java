@@ -10,15 +10,17 @@ import org.springframework.data.redis.core.RedisTemplate;
 
 import com.cscloud.auth.server.config.SecretConfiguration;
 import com.cscloud.common.base.util.RSAUtils;
+import org.springframework.stereotype.Component;
 
 /**
  * 项目启动的时候自动将自动生成对应的公私钥
  * @author Administrator
  *
  */
-@Configuration
+@Component
 @Slf4j
 public class AuthServerRunner implements CommandLineRunner {
+
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
     private static final String REDIS_USER_PRI_KEY = "AG:AUTH:JWT:PRI";
@@ -31,7 +33,7 @@ public class AuthServerRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        log.info("");
+        log.info("正常的启动------------------------");
         if (redisTemplate.hasKey(REDIS_USER_PRI_KEY) && redisTemplate.hasKey(REDIS_USER_PUB_KEY) && redisTemplate.hasKey(REDIS_SERVICE_PRI_KEY) && redisTemplate.hasKey(REDIS_SERVICE_PUB_KEY)) {
             keyConfiguration.setUserPriKey(RSAUtils.toBytes(redisTemplate.opsForValue().get(REDIS_USER_PRI_KEY).toString()));
             keyConfiguration.setUserPubKey(RSAUtils.toBytes(redisTemplate.opsForValue().get(REDIS_USER_PUB_KEY).toString()));

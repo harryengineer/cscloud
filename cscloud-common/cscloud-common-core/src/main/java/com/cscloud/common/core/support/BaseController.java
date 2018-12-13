@@ -1,4 +1,4 @@
-package com.cscloud.common.core.support;
+/*package com.cscloud.common.core.support;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cscloud.common.base.util.ResUtils;
 
-/**
+*//**
  * 基础的controller 继承之后的话保存，获取id，分页等信息暂时用不到
  * 
  * @author Administrator
  *
  * @param <Service>
  * @param <Entity>
- */
+ *//*
 public class BaseController<Service extends IService<Entity>, Entity> {
 
 	@Autowired
@@ -65,3 +65,4 @@ public class BaseController<Service extends IService<Entity>, Entity> {
 //	}
 
 }
+*/

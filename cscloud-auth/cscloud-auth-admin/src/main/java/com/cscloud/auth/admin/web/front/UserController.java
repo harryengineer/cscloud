@@ -5,14 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cscloud.auth.admin.domain.AuthUserPo;
 import com.cscloud.auth.admin.service.AuthMenuPoService;
 import com.cscloud.auth.admin.service.AuthUserPoService;
 import com.cscloud.auth.admin.service.PermissionService;
 import com.cscloud.auth.api.model.UserPermissionVo;
 import com.cscloud.common.base.constant.ErrorCode;
 import com.cscloud.common.base.util.ResUtils;
-import com.cscloud.common.core.support.BaseController;
 
 /**
  * 用户的请求类
@@ -21,12 +19,15 @@ import com.cscloud.common.core.support.BaseController;
  */
 @RestController
 @RequestMapping("user")
-public class UserController extends BaseController<AuthUserPoService,AuthUserPo> {
+public class UserController{
     @Autowired
     private PermissionService permissionService;
 
     @Autowired
     private AuthMenuPoService menuBiz;
+    
+    @Autowired
+    private AuthUserPoService baseService;
 
     @RequestMapping(value = "/front/info", method = RequestMethod.GET)
     public String getUserInfo(String token) throws Exception {

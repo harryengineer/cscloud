@@ -4,6 +4,8 @@ import java.awt.Menu;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +24,6 @@ import com.cscloud.auth.common.util.BaseContextMap;
 import com.cscloud.common.base.constant.GlobalConstants;
 import com.cscloud.common.base.util.ResUtils;
 import com.cscloud.common.base.wrapper.Wrapper;
-import com.cscloud.common.core.support.BaseController;
 
 import tk.mybatis.mapper.entity.Example;
 
@@ -33,10 +34,13 @@ import tk.mybatis.mapper.entity.Example;
  */
 @Controller
 @RequestMapping("menu")
-public class MenuController extends BaseController<AuthMenuPoService, AuthMenuPo> {
+public class MenuController {
     @Autowired
     private AuthUserPoService userBiz;
 
+    @Resource
+    private AuthMenuPoService baseSerivce;
+    
     /**
      * 获取所有的按钮集合
      * @param title

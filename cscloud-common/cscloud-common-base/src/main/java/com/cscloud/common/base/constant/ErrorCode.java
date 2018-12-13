@@ -50,6 +50,8 @@ public enum ErrorCode {
 	 	 * 用户权限不足
 	 	 */
 	 	USER_NO_PERMISSION(40005,"user no permission"),
+
+		USER_NO_TOKEN(40006,"need user token"),
 	 	
 		 /**
 	     * 服务的token的超过时间
@@ -80,10 +82,10 @@ public enum ErrorCode {
 		 *  通过client和secret没有找到对应的client
 		 */
 		CLIENT_NO_CLIENTID_SECRET(41006,"have no client");
-	
-	
-	
-		
+
+
+
+
 
 	    private final Integer value;
 	    private final String message;

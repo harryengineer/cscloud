@@ -79,6 +79,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 		// 获取解析后的原始路径
 		String requestUrl = request.getPath().pathWithinApplication().value();
 		// 获取原始的路径，然后将路径给reqeusturl，如果没有 就使用默认的路径
+		log.info("访问的路径: {}",requestUrl);
 		if (uris != null && uris.size() > 0) {
 			for (URI uri : uris) {
 				if (uri.toString().startsWith(GATEWAY_PREFIX)) {
@@ -107,7 +108,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 		} catch (Exception e) {
 			log.error("用户Token过期异常", e);
 			try {
-				return getVoidMono(exchange, new BaseException(ErrorCode.USER_TOKEN_EXPIRED));
+				return getVoidMono(exchange, e);
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
@@ -198,14 +199,14 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 	}
 
 	/**
-	 * webflux 返回对应的响应
+	 * webflux 返回对应的响应，这个是webflux的封装
 	 * 
 	 * @param exchange
 	 * @param baseException
 	 * @return
 	 * @throws IOException
 	 */
-	private Mono<Void> getVoidMono(ServerWebExchange exchange, BaseException baseException) throws IOException {
+	private Mono<Void> getVoidMono(ServerWebExchange exchange, Exception baseException) throws IOException {
 		exchange.getResponse().setStatusCode(HttpStatus.OK);
 		byte[] bytes = JacksonUtils.toJson(baseException).getBytes(StandardCharsets.UTF_8);
 		DataBuffer buffer = exchange.getResponse().bufferFactory().wrap(bytes);
@@ -236,6 +237,9 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 			}
 		}
 
+		if (StringUtils.isBlank(authToken)){
+			throw new BaseException(ErrorCode.USER_NO_TOKEN);
+		}
 		// 获取token，然后放到本地缓存和mutate中的，如果改变属性就将属性放进去重新创建
 		BaseContextMap.setUserToken(authToken);
 		mutate.header(userProperties.getUserTokenHeader(), authToken);
@@ -245,7 +249,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 
 	@Override
 	public int getOrder() {
-		return Ordered.LOWEST_PRECEDENCE;
+		return 10;
 	}
 
 }

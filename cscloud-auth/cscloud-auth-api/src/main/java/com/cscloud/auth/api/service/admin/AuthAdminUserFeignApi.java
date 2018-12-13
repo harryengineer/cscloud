@@ -12,15 +12,27 @@ import com.cscloud.auth.api.model.AuthPermissionVo;
 import com.cscloud.auth.api.model.AuthUserVo;
 import com.cscloud.auth.api.service.admin.hystrix.AuthAdminUserFeignApiHystrix;
 import com.cscloud.common.base.wrapper.Wrapper;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 
+/**
+ * 这个feign对外提供的调用接口
+ */
 @FeignClient(value = "cscloud-auth-admin",fallback = AuthAdminUserFeignApiHystrix.class)
-@ComponentScan("com.cscloud.auth.api.service")
+@RequestMapping("api")
 public interface AuthAdminUserFeignApi {
-	
+	@RequestMapping(value = "/permissions", method = RequestMethod.GET)
 	 public  Wrapper<List<AuthPermissionVo>> getAllPermission();
-	 
+
+	@RequestMapping(value = "/user/un/{username}/permissions", method = RequestMethod.GET)
 	 public Wrapper<List<AuthPermissionVo>> getPermissionByUsername(@PathVariable("username") String username);
-	 
+
+	/**
+	 * 验证并返回用户的信息
+	 * @param body
+	 * @return
+	 */
+	@RequestMapping(value = "/user/check", method = RequestMethod.POST)
 	 public  Wrapper<AuthUserVo> validate(@RequestBody Map<String,String> body);
 }

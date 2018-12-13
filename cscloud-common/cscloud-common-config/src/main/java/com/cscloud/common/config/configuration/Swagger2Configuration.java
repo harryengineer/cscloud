@@ -33,7 +33,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @EnableSwagger2
 @SuppressWarnings("all")
-@Configuration
 public class Swagger2Configuration {
 
 //	@Value(value = "${swagger.enabled}")

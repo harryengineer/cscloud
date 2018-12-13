@@ -16,7 +16,6 @@ import com.cscloud.auth.admin.service.AuthElementPoService;
 import com.cscloud.auth.admin.service.AuthUserPoService;
 import com.cscloud.auth.common.util.BaseContextMap;
 import com.cscloud.common.base.util.ResUtils;
-import com.cscloud.common.core.support.BaseController;
 
 import tk.mybatis.mapper.entity.Example;
 
@@ -28,9 +27,10 @@ import tk.mybatis.mapper.entity.Example;
 @Controller
 @RequestMapping("element")
 @SuppressWarnings("all")
-public class ElementController  extends BaseController<AuthElementPoService,AuthElementPo> {
+public class ElementController   {
   @Autowired
   private AuthElementPoService elementPoService;
+  
   
   @Autowired
   private AuthUserPoService authUserPoService;

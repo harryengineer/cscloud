@@ -2,8 +2,10 @@ package com.cscloud.auth.server.config;
 
 import java.util.List;
 
+import com.cscloud.common.config.configuration.RedisConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -19,6 +21,7 @@ import com.cscloud.common.core.converter.JacksonCustomConverter;
  *
  */
 @Configuration(value = "webMvcConfig")
+@Import(RedisConfiguration.class)//手动注入需要的配置文件
 public class WebMvcConfiguration implements WebMvcConfigurer {
 
 	/**

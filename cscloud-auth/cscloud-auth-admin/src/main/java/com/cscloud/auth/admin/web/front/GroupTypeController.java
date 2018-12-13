@@ -3,10 +3,6 @@ package com.cscloud.auth.admin.web.front;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.cscloud.auth.admin.domain.AuthGroupTypePo;
-import com.cscloud.auth.admin.service.AuthGroupTypePoService;
-import com.cscloud.common.core.support.BaseController;
-
 /**
  * ${DESCRIPTION}
  *
@@ -15,7 +11,7 @@ import com.cscloud.common.core.support.BaseController;
  */
 @Controller
 @RequestMapping("groupType")
-public class GroupTypeController extends BaseController<AuthGroupTypePoService,AuthGroupTypePo> {
+public class GroupTypeController  {
 //
 //    @RequestMapping(value = "/page",method = RequestMethod.GET)
 //    @ResponseBody

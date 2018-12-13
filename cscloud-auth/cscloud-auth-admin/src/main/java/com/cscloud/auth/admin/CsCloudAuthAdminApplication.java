@@ -2,6 +2,7 @@ package com.cscloud.auth.admin;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
@@ -14,9 +15,9 @@ import com.cscloud.auth.client.EnableAuthClient;
  * @author Administrator
  *
  */
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.cscloud.auth.api")
 @EnableEurekaClient
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.cscloud.auth.admin","com.cscloud.auth.api","com.cscloud.common"})
 @EnableHystrix
 @MapperScan(basePackages= {"com.cscloud.auth.admin.mapper"})
 @EnableAuthClient //开启对应的权限认证

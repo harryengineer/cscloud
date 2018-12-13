@@ -19,6 +19,6 @@ public interface UserAuthFeignApi {
 	 * @param requestAuth
 	 * @return
 	 */
-	@RequestMapping("/api/user/validate")
+	@RequestMapping("/api/user/check")
 	UserAuthInfoDto getUserInfo(RequestAuthentication requestAuth);
 }

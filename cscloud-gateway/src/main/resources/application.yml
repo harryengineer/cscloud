@@ -1,6 +1,6 @@
 server:
   port: 8802
-  
+
 spring:
   profiles:
     active: dev
@@ -15,14 +15,28 @@ spring:
         - Path=/user/**
         filters:
         -  StripPrefix=1
+      - id: cscloud-auth-server
+        uri: http://127.0.0.1:8809
+        predicates:
+          - Path=/auth/server/**
+        filters:
+          - StripPrefix=2
+      - id: cscloud-auth-admin
+        uri: http://127.0.0.1:8810
+        predicates:
+          - Path=/auth/admin/**
+        filters:
+          - StripPrefix=2
 
-        
-gateway.ignore.url: user
+
+
+# 门户网站的忽略
+gateway.ignore.url: /jwt/auth
 
 auth:
   user:
     token-header: Authorization
   client:
     token-header:  Client-Auth
-    id: auth-gate  #不填则默认读取spring.application.name
-    secret: 123456
+    id: cscloud-gateway  #不填则默认读取spring.application.name
+    secret: AvPlgVrE

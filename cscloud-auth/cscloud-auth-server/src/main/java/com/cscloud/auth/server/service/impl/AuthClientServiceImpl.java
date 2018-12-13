@@ -23,9 +23,7 @@ import com.cscloud.common.core.support.BaseService;
 @Service
 public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthClientPo>  implements AuthClientSerivce{
 	
-	
-	@Autowired
-	private AuthClientPoMapper authClientPoMapper;
+
 	@Autowired
 	private ClientTokenUtils clientTokenUtils;
 	
@@ -43,7 +41,7 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 		AuthClientPo authClientPo = new AuthClientPo();
 		authClientPo.setSecret(clientSecret);
 		authClientPo.setCode(clientId);
-		AuthClientPo one = authClientPoMapper.selectOne(authClientPo);
+		AuthClientPo one = mapper.selectOne(authClientPo);
 		if (one == null){
 			throw new BaseException(ErrorCode.CLIENT_TOKEN_SIGNATURE_ERROR);
 		}
@@ -53,7 +51,7 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 	}
 	@Override
 	public List<String> getAllowedClient(String clientId) {
-		List<String> list = authClientPoMapper.getAllowedClient(clientId);
+		List<String> list = mapper.getAllowedClient(clientId);
 		if (list == null) {
 			list = new ArrayList<>();
 		}
@@ -70,9 +68,9 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 	@Override
 	public void validate(String clientId, String secret) {
 		AuthClientPo clientPo = new AuthClientPo();
-		clientPo.setId(Integer.valueOf(clientId));
+		clientPo.setCode(clientId);
 		clientPo.setSecret(secret);
-		AuthClientPo po = authClientPoMapper.selectOne(clientPo);
+		AuthClientPo po = mapper.selectOne(clientPo);
 		if (po == null) {
 			throw new BaseException(ErrorCode.CLIENT_NO_CLIENTID_SECRET);
 		}

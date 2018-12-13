@@ -3,6 +3,8 @@ package com.cscloud.auth.admin.web.front;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +22,7 @@ import com.cscloud.auth.admin.vo.GroupTreeVo;
 import com.cscloud.common.base.constant.ErrorCode;
 import com.cscloud.common.base.constant.GlobalConstants;
 import com.cscloud.common.base.util.ResUtils;
-import com.cscloud.common.core.support.BaseController;
 
-import io.swagger.annotations.Api;
 import tk.mybatis.mapper.entity.Example;
 
 /**
@@ -32,8 +32,9 @@ import tk.mybatis.mapper.entity.Example;
  */
 @Controller
 @RequestMapping("group")
-@Api("群组模块")
-public class GroupController extends BaseController<AuthGroupPoService,AuthGroupPo> {
+public class GroupController  {
+	@Resource
+	private AuthGroupPoService baseSerivce;
 	
     @Autowired
     private AuthResourceAuthorityPoService resourceAuthorityBiz;

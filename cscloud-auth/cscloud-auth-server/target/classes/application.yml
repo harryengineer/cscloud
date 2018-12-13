@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: cscloud-auth-server
@@ -33,14 +34,14 @@ server:
 feign:
   client:
     config:
-      cscloud-auth-admin: 
-        requestInterceptors: 
+      cscloud-auth-server:
+        requestInterceptors:
           -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
-  hystrix:
-    enabled: true
-  okhttp:
-    enabled: true
-     
+#  hystrix:
+#    enabled: true
+#  okhttp:
+#    enabled: true
+
 
 # jwt 的3个重要的数据认证  token-header是认证类型
 # 这个是服务和服务之间的
@@ -51,7 +52,7 @@ client:
   client: cscloud-auth-server
   rsa-secret: 123456
   expire: 3600 
-  secret: sdfsdfjsopdfupsod
+  secret: v16PRNtE
 
 # 这个是用户访问的权限认证
 jwt: 

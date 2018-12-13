@@ -10,17 +10,13 @@
   
   <dependencies>
   		<!-- 注册中心客户端 -->
-  		<dependency>
-  			<groupId>org.springframework.cloud</groupId>
-  			<artifactId>
-  				spring-cloud-netflix-eureka-client
-  			</artifactId>
-  		</dependency>
+
+
   		<!-- 文档的依赖 -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>io.springfox</groupId>-->
+			<!--<artifactId>springfox-swagger2</artifactId>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>com.zhang</groupId>
 			<artifactId>cscloud-common-core</artifactId>

@@ -29,7 +29,7 @@ public interface ClientAuthFeignApi {
 	@GetMapping(value = "/client/getClientPubKey")
 	public Wrapper<byte[]> getClientPublicKey(@RequestParam(name = "clientId")String clientId,@RequestParam(name = "secret")String secret);
 	
-	@GetMapping(value = "/user/getUserPubKey")
+	@GetMapping(value = "/client/getUserPubKey")
 	public Wrapper<byte[]> getUserPublicKey(@RequestParam(name = "clientId")String clientId,@RequestParam(name = "secret")String secret);
 	
 	
