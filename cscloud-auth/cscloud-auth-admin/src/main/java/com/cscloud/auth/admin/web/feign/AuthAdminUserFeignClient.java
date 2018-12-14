@@ -3,7 +3,9 @@ package com.cscloud.auth.admin.web.feign;
 import java.util.List;
 import java.util.Map;
 
+import com.cscloud.auth.api.model.RequestAuthentication;
 import com.cscloud.auth.api.service.admin.AuthAdminUserFeignApi;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +26,7 @@ import com.cscloud.common.base.wrapper.Wrapper;
  *
  */
 @RestController
+@Slf4j
 public class AuthAdminUserFeignClient implements AuthAdminUserFeignApi {
 
 	    @Autowired
@@ -44,8 +47,12 @@ public class AuthAdminUserFeignClient implements AuthAdminUserFeignApi {
 	     * @param body
 	     * @return
 	     */
-	    public  Wrapper<AuthUserVo> validate(@RequestBody Map<String,String> body){
-	        return Wrapper.success(permissionService.validate(body.get("username"),body.get("password")));
+//	    public  Wrapper<AuthUserVo> validate(@RequestBody Map<String,String> body){
+//	        return Wrapper.success(permissionService.validate(body.get("username"),body.get("password")));
+//	    }
+	    public  Wrapper<AuthUserVo> validate(@RequestBody RequestAuthentication body){
+	    	log.info("传入对应的数据{}",body);
+	        return Wrapper.success(permissionService.validate(body.getUsername(),body.getPassword()));
 	    }
 
 }

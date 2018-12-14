@@ -5,6 +5,7 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cscloud.auth.api.model.RequestAuthentication;
@@ -32,8 +33,8 @@ public class UserAuthController {
 	 * @return
 	 * @throws Exception 
 	 */
-	@RequestMapping("/token")
-	public Wrapper<String> getToken(@RequestBody @Valid RequestAuthentication requestAuth) throws Exception {
+	@RequestMapping(value = "/token",method =  RequestMethod.POST)
+	public Wrapper<String> getToken(@RequestBody RequestAuthentication requestAuth) throws Exception {
 		log.info("user have getting token and  username :{}, password:{}",requestAuth.getUsername(),requestAuth.getPassword());
 		return Wrapper.success(userService.getUserInfo(requestAuth));
 	}

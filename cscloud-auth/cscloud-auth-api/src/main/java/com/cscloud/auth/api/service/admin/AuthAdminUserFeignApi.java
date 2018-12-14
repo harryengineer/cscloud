@@ -3,6 +3,7 @@ package com.cscloud.auth.api.service.admin;
 import java.util.List;
 import java.util.Map;
 
+import com.cscloud.auth.api.model.RequestAuthentication;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,12 +21,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 这个feign对外提供的调用接口
  */
 @FeignClient(value = "cscloud-auth-admin",fallback = AuthAdminUserFeignApiHystrix.class)
-@RequestMapping("api")
 public interface AuthAdminUserFeignApi {
-	@RequestMapping(value = "/permissions", method = RequestMethod.GET)
+	@RequestMapping(value = "/api/permissions", method = RequestMethod.GET)
 	 public  Wrapper<List<AuthPermissionVo>> getAllPermission();
 
-	@RequestMapping(value = "/user/un/{username}/permissions", method = RequestMethod.GET)
+	@RequestMapping(value = "/api/user/un/{username}/permissions", method = RequestMethod.GET)
 	 public Wrapper<List<AuthPermissionVo>> getPermissionByUsername(@PathVariable("username") String username);
 
 	/**
@@ -33,6 +33,9 @@ public interface AuthAdminUserFeignApi {
 	 * @param body
 	 * @return
 	 */
-	@RequestMapping(value = "/user/check", method = RequestMethod.POST)
-	 public  Wrapper<AuthUserVo> validate(@RequestBody Map<String,String> body);
+//	@RequestMapping(value = "/user/check", method = RequestMethod.POST)
+//	 public  Wrapper<AuthUserVo> validate(@RequestBody Map<String,String> body);
+
+	@RequestMapping(value = "/api/user/check", method = RequestMethod.POST)
+	public  Wrapper<AuthUserVo> validate(@RequestBody RequestAuthentication body);
 }

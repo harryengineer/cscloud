@@ -18,20 +18,22 @@ spring:
       - id: cscloud-auth-server
         uri: http://127.0.0.1:8809
         predicates:
-          - Path=/auth/server/**
+          - Path=/api/auth/server/**
         filters:
-          - StripPrefix=2
+          - StripPrefix=3
       - id: cscloud-auth-admin
         uri: http://127.0.0.1:8810
         predicates:
-          - Path=/auth/admin/**
+          - Path=/api/auth/admin/**
         filters:
-          - StripPrefix=2
+          - StripPrefix=3
 
 
 
 # 门户网站的忽略
-gateway.ignore.url: /jwt/auth
+gateway:
+  ignore:
+    url: /jwt/
 
 auth:
   user:

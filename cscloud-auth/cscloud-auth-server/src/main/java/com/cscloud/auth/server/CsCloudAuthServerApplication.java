@@ -16,10 +16,10 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author Administrator
  *
  */
-@EnableFeignClients// 开启服务调用
+@EnableFeignClients(basePackages = "com.cscloud.auth.api")// 开启服务调用
 // 最好添加上去，这样可以减少启动时间
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.cscloud.auth.api.service.server","com.cscloud.auth.server","com.cscloud.common.config"})
+@ComponentScan(basePackages = {"com.cscloud.auth.api.service","com.cscloud.auth.server","com.cscloud.common.config"})
 //@EnableHystrix//熔断器，核心是为了turbin的监控
 @MapperScan(basePackages = "com.cscloud.auth.server.mapper")//mapper的scan的包路径
 @EnableScheduling//开启定时器

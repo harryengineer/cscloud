@@ -43,6 +43,7 @@ public class OkHttpInterceptor implements Interceptor{
 	 */
 	@Override
 	public Response intercept(Chain chain) throws IOException {
+		log.info("okhttp开始拦截-------------");
 		
 		Request newRequest = null;
 		if (chain.request().url().toString().contains("client/token")) {

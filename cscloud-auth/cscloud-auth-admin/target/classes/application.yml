@@ -31,7 +31,7 @@ auth:
     client: cscloud-auth-server
     rsa-secret: 123456
     expire: 3600 
-    secret: sdfsdfjsopdfupsod
+    secret: dwP1mZQf
 
 # 这个是用户访问的权限认证
 jwt: 
@@ -40,3 +40,13 @@ jwt:
   rsa-secret: xx1WET12^%3^(WE45
 server:
   port: 8810
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      cscloud-auth-admin:
+        requestInterceptors:
+          - com.cscloud.auth.client.interceptor.OkHttpInterceptor
+
+

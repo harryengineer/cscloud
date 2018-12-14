@@ -3,6 +3,7 @@ package com.cscloud.auth.api.service.admin.hystrix;
 import java.util.List;
 import java.util.Map;
 
+import com.cscloud.auth.api.model.RequestAuthentication;
 import org.springframework.stereotype.Component;
 
 import com.cscloud.auth.api.model.AuthPermissionVo;
@@ -29,9 +30,14 @@ public class AuthAdminUserFeignApiHystrix implements AuthAdminUserFeignApi {
 	}
 
 	@Override
-	public Wrapper<AuthUserVo> validate(Map<String, String> body) {
-		log.error("调用异常：{}",body);
+	public Wrapper<AuthUserVo> validate(RequestAuthentication body) {
 		return null;
 	}
+//
+//	@Override
+//	public Wrapper<AuthUserVo> validate(Map<String, String> body) {
+//		log.error("调用异常：{}",body);
+//		return null;
+//	}
 
 }

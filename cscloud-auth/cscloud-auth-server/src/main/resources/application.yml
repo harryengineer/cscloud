@@ -37,11 +37,8 @@ feign:
       cscloud-auth-server:
         requestInterceptors:
           -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
-#  hystrix:
-#    enabled: true
-#  okhttp:
-#    enabled: true
-
+  okhttp:
+    enabled: true
 
 # jwt 的3个重要的数据认证  token-header是认证类型
 # 这个是服务和服务之间的
