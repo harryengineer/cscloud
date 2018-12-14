@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cscloud-apollo" />
+        <module name="cscloud-auth-admin" />
+        <module name="cscloud-auth-client" />
+        <module name="cscloud-auth-common" />
+        <module name="cscloud-auth-server" />
         <module name="cscloud-common-base" />
         <module name="cscloud-common-config" />
         <module name="cscloud-common-core" />
-        <module name="cscloud-common-util" />
         <module name="cscloud-eureka" />
         <module name="cscloud-gateway" />
         <module name="cscloud-monitor" />
@@ -25,11 +28,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cscloud-apollo" target="1.8" />
+      <module name="cscloud-auth" target="1.8" />
+      <module name="cscloud-auth-admin" target="1.8" />
+      <module name="cscloud-auth-client" target="1.8" />
+      <module name="cscloud-auth-common" target="1.8" />
+      <module name="cscloud-auth-server" target="1.8" />
       <module name="cscloud-common" target="1.8" />
       <module name="cscloud-common-base" target="1.8" />
       <module name="cscloud-common-config" target="1.8" />
       <module name="cscloud-common-core" target="1.8" />
-      <module name="cscloud-common-util" target="1.8" />
       <module name="cscloud-eureka" target="1.8" />
       <module name="cscloud-gateway" target="1.8" />
       <module name="cscloud-master" target="1.8" />
@@ -44,5 +51,27 @@
       <module name="cscloud-provider-usc" target="1.8" />
       <module name="cscloud-zipkin" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cscloud-apollo" options="-parameters" />
+      <module name="cscloud-auth-admin" options="-parameters" />
+      <module name="cscloud-auth-client" options="-parameters" />
+      <module name="cscloud-auth-common" options="-parameters" />
+      <module name="cscloud-auth-server" options="-parameters" />
+      <module name="cscloud-common-base" options="-parameters" />
+      <module name="cscloud-common-config" options="-parameters" />
+      <module name="cscloud-common-core" options="-parameters" />
+      <module name="cscloud-eureka" options="-parameters" />
+      <module name="cscloud-gateway" options="-parameters" />
+      <module name="cscloud-monitor" options="-parameters" />
+      <module name="cscloud-provicer-msc" options="-parameters" />
+      <module name="cscloud-provider-api-dtc" options="-parameters" />
+      <module name="cscloud-provider-api-msc" options="-parameters" />
+      <module name="cscloud-provider-api-usc" options="-parameters" />
+      <module name="cscloud-provider-dtc" options="-parameters" />
+      <module name="cscloud-provider-usc" options="-parameters" />
+      <module name="cscloud-zipkin" options="-parameters" />
+    </option>
   </component>
 </project>

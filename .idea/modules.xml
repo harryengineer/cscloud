@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/auth.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" filepath="$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/cscloud-auth-admin.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/cscloud-auth-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/cscloud-auth-client.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/cscloud-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/cscloud-auth-common.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/cscloud-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/cscloud-auth-server.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/cscloud-auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-util/cscloud-common-util.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-util/cscloud-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" filepath="$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-gateway/cscloud-gateway.iml" filepath="$PROJECT_DIR$/cscloud-gateway/cscloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-master.iml" filepath="$PROJECT_DIR$/cscloud-master.iml" />
@@ -21,6 +26,18 @@
       <module fileurl="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/cscloud-provider-dtc.iml" filepath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/cscloud-provider-dtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/cscloud-provider-usc.iml" filepath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/cscloud-provider-usc.iml" />
       <module fileurl="file://$PROJECT_DIR$/cscloud-zipkin/cscloud-zipkin.iml" filepath="$PROJECT_DIR$/cscloud-zipkin/cscloud-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/main.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-eureka/src/main/main1.iml" filepath="$PROJECT_DIR$/cscloud-eureka/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/main10.iml" filepath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/main11.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/src/main/main2.iml" filepath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-gateway/src/main/main3.iml" filepath="$PROJECT_DIR$/cscloud-gateway/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/main4.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/main5.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/src/main/main6.iml" filepath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/main7.iml" filepath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-common/cscloud-common-config/src/main/main8.iml" filepath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cscloud-monitor/src/main/main9.iml" filepath="$PROJECT_DIR$/cscloud-monitor/src/main/main9.iml" />
     </modules>
   </component>
 </project>
