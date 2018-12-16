@@ -3,6 +3,7 @@ package com.cscloud.auth.server.interceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 
@@ -17,6 +18,7 @@ import com.cscloud.auth.server.util.user.UserTokenUtils;
  * @author Administrator
  *
  */
+@Slf4j
 public class UserAuthInterceptor implements HandlerInterceptor {
 	@Autowired
 	private UserAuthConfiguration userAuthConfiguration;
@@ -29,6 +31,7 @@ public class UserAuthInterceptor implements HandlerInterceptor {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		log.info("为请求同进行权限的设定");
 		String token = request.getHeader(userAuthConfiguration.getUserTokenHeader());
 		IJWTInfo ijwtInfo = userTokenUtils.getInfoFromToken(token);
 		
@@ -46,6 +49,7 @@ public class UserAuthInterceptor implements HandlerInterceptor {
 	@Override
 	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
 			throws Exception {
+		log.info("删除线程的{}",Thread.currentThread());
 		UserInfoContext.remove();
 		HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
 	}

@@ -6,31 +6,37 @@ package com.cscloud.common.base.constant;
  *
  */
 public enum ErrorCode {
+	
 		/**
 		 * 系统错误
 		 */
 	    SYSTEM_ERROR(500, "系统错误"),
+	    
 	    /**
 	     * 调用成功
 	     */
 	    OK(200,"success"),
+	    
 	    /**
 	     * 参数校验错误
 	     */
 	    PARAMETER_CHECK_ERROR(400, "参数校验错误"),
 	    
-	    
-	    AUTH_VALID_ERROR(701, "用户权限不足"),
+	    /**
+	     * 用户未登录或登录状态超时失效
+	     */
 	    UNLOGIN_ERROR(401, "用户未登录或登录状态超时失效"),
 	    
 	    /**
 	     * 用户的token的超过时间
 	     */
 	    USER_TOKEN_EXPIRED(40001,"user  token expired"),
+	    
 	    /**
 	     *  用户的token校验失败
 	     */
 	 	USER_TOKEN_SIGNATURE_ERROR(40002,"User token signature error!"),
+	 	
 	 	/**
 	 	 * 用户的token问空或者为null
 	 	 */
@@ -44,17 +50,19 @@ public enum ErrorCode {
 	 	 * 用户权限不足
 	 	 */
 	 	USER_NO_PERMISSION(40005,"user no permission"),
+
+		USER_NO_TOKEN(40006,"need user token"),
 	 	
-	 	
-		
 		 /**
 	     * 服务的token的超过时间
 	     */
 	    CLIENT_TOKEN_EXPIRED(41001,"client  token expired"),
+	    
 	    /**
 	     *  服务的token校验失败
 	     */
 	    CLIENT_TOKEN_SIGNATURE_ERROR(41002,"client token signature error!"),
+	    
 	 	/**
 	 	 * 服务的token问空或者为null
 	 	 */
@@ -74,10 +82,10 @@ public enum ErrorCode {
 		 *  通过client和secret没有找到对应的client
 		 */
 		CLIENT_NO_CLIENTID_SECRET(41006,"have no client");
-	
-	
-	
-		
+
+
+
+
 
 	    private final Integer value;
 	    private final String message;

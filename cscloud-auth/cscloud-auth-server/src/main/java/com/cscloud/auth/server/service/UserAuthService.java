@@ -1,7 +1,7 @@
 package com.cscloud.auth.server.service;
 
 
-import com.cscloud.auth.common.bean.RequestAuthentication;
+import com.cscloud.auth.api.model.RequestAuthentication;
 
 public interface UserAuthService {
 

@@ -47,7 +47,7 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 			throw new BaseException(ErrorCode.CLIENT_TOKEN_INFO_ERROR);
 		}
 		
-		//问题： 缺少过期时间
+		//问题： 缺少过期时间在jsonwebtoken  中自动验证了）
 		
 		List<String> allowClientNames = authClientSerivce.getAllowedClient(client.getClientId());
 		for (String allowclientName : allowClientNames) {

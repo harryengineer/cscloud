@@ -1,157 +1,650 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="191a5711-3ea6-4556-8563-44b69639fa3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_11_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/cscloud-auth-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/cscloud-auth-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/cscloud-auth-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/cscloud-auth-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth.iml" afterDir="false" />
+    <list default="true" id="13d5811a-67bf-431c-a01f-bf73127a50aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupTypePo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthMenuPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthElementPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthGroupLeaderPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthGroupMemberPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthGroupPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthGroupTypePoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthMenuPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthResourceAuthorityPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthUserPoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthElementPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupLeaderPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupMemberPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupTypePoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthMenuPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthResourceAuthorityPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthUserPoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthElementPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupLeaderPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupMemberPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthMenuPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthResourceAuthorityPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthUserPoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/PermissionSerivceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/util/TreeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/vo/AuthorityMenuTreeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/vo/GroupTreeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/vo/GroupUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/vo/MenuTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/vo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/feign/AuthAdminUserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/ElementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthElementPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthGroupLeaderPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthGroupMemberPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthGroupPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthGroupTypePoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthMenuPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthResourceAuthorityPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthUserPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthElementPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthGroupLeaderPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthGroupMemberPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthGroupPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthGroupTypePoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthMenuPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthResourceAuthorityPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mapper/AuthUserPoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/model/AuthPermissionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/model/AuthUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/model/UserPermissionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/service/admin/AuthAdminUserFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/service/admin/hystrix/AuthAdminUserFeignApiHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/service/server/ClientAuthFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/target/classes/META-INF/cscloud-auth-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/annotation/IgnoreClientToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/annotation/IgnoreUserToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/ClientRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/OkHttpInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/ClientAuthProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/UserAuthProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/UserTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/BaseContextMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/InjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/dto/ClientReousrceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/runner/AuthServerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/task/ClientDiscoveryTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/mapper/AuthClientResourcePoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-test/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-test/bin/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/util/BaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/util/JacksonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/util/ResUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/util/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/bean/PageTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/support/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/handler/GlobalErrorWebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/src/main/java/com/cscloud/provider/config/InjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kefu.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_11_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-gateway/cscloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/cscloud-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/cscloud-provider-api-dtc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/cscloud-provider-api-dtc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-msc/cscloud-provider-api-msc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-msc/cscloud-provider-api-msc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-usc/cscloud-provider-api-usc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-usc/cscloud-provider-api-usc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provicer-msc/cscloud-provicer-msc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provicer-msc/cscloud-provicer-msc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/cscloud-provider-dtc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/cscloud-provider-dtc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/cscloud-provider-usc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/cscloud-provider-usc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/cscloud-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-zipkin/cscloud-zipkin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/cscloud-auth-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthElementPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/GateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupLeaderPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/GroupType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupMemberPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/ResourceAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthUserPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/cscloud-auth-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/annotation/CscloudAuthClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/cscloud-auth-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/api/UserAuthFeignApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/api/hystrix/UserAuthFeignApiHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/bean/RequestAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/model/RequestAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/dto/UserAuthInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/model/UserAuthInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/cscloud-auth-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/ClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/ClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/FeignClientTokenInteceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/FeignClientTokenInteceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/AuthClientResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/AuthClientResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/UserAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/UserAuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/UserAuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/mapper/AuthClientPoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/cscloud-common-base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/constant/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/constant/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/cscloud-common-config.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/src/main/java/com/cscloud/common/config/configuration/Swagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/src/main/java/com/cscloud/common/config/configuration/Swagger2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/cscloud-common-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/MyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/MyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/IService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-eureka/cscloud-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-eureka/target/classes/com/cscloud/eureka/CsCloudEurekaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/target/classes/com/cscloud/eureka/CsCloudEurekaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/cscloud-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/target/classes/com/cscloud/gateway/CsCloudGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/target/classes/com/cscloud/gateway/CsCloudGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-monitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/cscloud-provider-api-dtc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/model/StatisticDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/model/StatisticDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/DtcStatisticFeignApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/DtcStatisticFeignApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/hystrix/DtcStatisticFeignApiHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/hystrix/DtcStatisticFeignApiHystrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-msc/cscloud-provider-api-msc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-usc/cscloud-provider-api-usc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provicer-msc/cscloud-provicer-msc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/cscloud-provider-dtc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/cscloud-provider-usc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/cscloud-zipkin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/cscloud-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-monitor/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-usc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-common/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-auth/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-zipkin/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provicer-msc/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-provider-api/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-zipkin/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-msc/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-usc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-common/cscloud-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-auth/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-provider-api/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-apollo/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-provider/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-gateway/target/" />
-    <ignored path="$PROJECT_DIR$/cscloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/target/" />
+    <ignored path="$PROJECT_DIR$/cscloud-apollo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/OkHttpInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml">
+        <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/auth.iml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/ClientRequestInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar!/okhttp3/Interceptor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>http://localhost:8810/api/permissions</find>
+      <find>sys</find>
+      <find>permissions</find>
+      <find>getAllPermission</find>
+      <find>AuthAdminUserFeignApi</find>
+      <find>authAdminUserFeignApi</find>
+      <find>OkHttpInterceptor</find>
+      <find>okhttp</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/config/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/OkHttpInterceptor.java" />
+        <option value="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -163,48 +656,461 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="1566" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cscloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cscloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cscloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
               <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.squareup.okhttp3:okhttp:3.8.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.squareup.okhttp3:okhttp:3.8.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="okhttp-3.8.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.squareup.okhttp3:okhttp:3.8.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="okhttp-3.8.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="okhttp3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="valves" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="coyote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.31" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.31.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544976258736" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -215,8 +1121,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.24978614" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CsCloudGatewayApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -231,6 +1138,55 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudAuthAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-auth-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.auth.admin.CsCloudAuthAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.auth.server.CsCloudAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudDtcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-provider-dtc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.provider.CsCloudDtcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.eureka.CsCloudEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.gateway.CsCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.monitor.CsCloudMonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsCloudUscApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cscloud-provider-usc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.provider.CsCloudUscApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,37 +1214,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="191a5711-3ea6-4556-8563-44b69639fa3f" name="Default Changelist" comment="" />
-      <created>1544799746777</created>
+      <changelist id="13d5811a-67bf-431c-a01f-bf73127a50aa" name="Default Changelist" comment="" />
+      <created>1544801441536</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544799746777</updated>
-      <workItem from="1544799749882" duration="236000" />
+      <updated>1544801441536</updated>
+      <workItem from="1544801444644" duration="255000" />
+      <workItem from="1544843361451" duration="722000" />
+      <workItem from="1544844450581" duration="4650000" />
+      <workItem from="1544861451022" duration="27544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378000" />
+    <option name="totallyTimeSpent" value="33171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1566" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26560426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -296,35 +1247,507 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.347207" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32910448" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/dto/ClientReousrceDto.java</url>
+          <line>26</line>
+          <properties field="clientLocked" class="com.cscloud.auth.server.dto.ClientReousrceDto" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/OkHttpInterceptor.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="forceReturnValue">
+      <expression>
+        <expression-string>token</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cscloud-apollo/cscloud-apollo.iml">
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/util/client/ClientTokenUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="127">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="634" selection-start-line="634" selection-end-line="634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/tomcat/util/http/MimeHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+          <folding>
+            <element signature="e#16062#16063#0" expanded="true" />
+            <element signature="e#16090#16091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/coyote/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+          <folding>
+            <element signature="e#11439#11440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/connector/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="2231" selection-start-line="2231" selection-end-line="2231" />
+          <folding>
+            <element signature="e#64898#64899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/connector/CoyoteReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/context/request/async/WebAsyncUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/StandardContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/authenticator/AuthenticatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/StandardEngineValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/coyote/http11/Http11Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="808" selection-start-line="808" selection-end-line="808" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/coyote/AbstractProcessorLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="927" selection-start-line="927" selection-end-line="927" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="976" selection-start-line="976" selection-end-line="976" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/support/http/WebStatFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/UserAuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/feign/AuthAdminUserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/config/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-api/src/main/java/com/cscloud/auth/api/service/admin/AuthAdminUserFeignApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/handler/GlobalErrorWebExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/UserAuthProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/ClientAuthProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="54" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1983">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar!/okhttp3/Interceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/auth.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/ClientRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/OkHttpInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cscloud-auth-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

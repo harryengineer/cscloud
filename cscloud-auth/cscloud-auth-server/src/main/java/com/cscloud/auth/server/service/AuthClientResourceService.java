@@ -1,7 +1,5 @@
 package com.cscloud.auth.server.service;
 
-import java.util.List;
-
 import com.cscloud.auth.server.domain.AuthClientResourcePo;
 import com.cscloud.auth.server.dto.ClientReousrceDto;
 import com.cscloud.common.core.support.IService;

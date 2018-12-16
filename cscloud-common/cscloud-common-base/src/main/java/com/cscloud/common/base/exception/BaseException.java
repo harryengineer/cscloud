@@ -64,4 +64,12 @@ public class BaseException extends RuntimeException {
 	public void setCode(int code) {
 		this.code = code;
 	}
+
+
+	@Override
+	public String toString() {
+		return "BaseException{" +
+				"code=" + code +
+				'}' + "message=" + getMessage();
+	}
 }

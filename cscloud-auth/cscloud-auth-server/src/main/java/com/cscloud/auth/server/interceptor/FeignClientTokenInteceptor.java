@@ -1,5 +1,6 @@
 package com.cscloud.auth.server.interceptor;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.cscloud.auth.server.config.ClientConfiguration;
@@ -13,6 +14,7 @@ import feign.RequestTemplate;
  * @author Administrator
  *
  */
+@Slf4j
 public class FeignClientTokenInteceptor implements RequestInterceptor {
 	
 	
@@ -27,6 +29,7 @@ public class FeignClientTokenInteceptor implements RequestInterceptor {
 	@Override
 	public void apply(RequestTemplate template) {
 		try {
+			log.info("为请求添加对应的token信息");
 			template.header(clientConfiguration.getClientTokenHeader(),authClientService.getToken(clientConfiguration.getClientId(),clientConfiguration.getClientSecret()));
 		} catch (Exception e) {
 			e.printStackTrace();

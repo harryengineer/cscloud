@@ -21,3 +21,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+cscloud-apollo/src/
+cscloud-auth/cscloud-auth-admin/src/main/main7.iml
+cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/auth.iml
+cscloud-auth/cscloud-auth-common/src/main/main.iml
+cscloud-auth/cscloud-auth-server/src/main/main4.iml
+cscloud-common/cscloud-common-base/src/main/main11.iml
+cscloud-common/cscloud-common-config/src/main/main8.iml
+cscloud-common/cscloud-common-core/src/main/main5.iml
+cscloud-eureka/src/main/main1.iml
+cscloud-eureka/target/generated-sources/
+cscloud-gateway/src/main/main3.iml
+cscloud-gateway/target/generated-sources/
+cscloud-monitor/src/main/main9.iml
+cscloud-provider-api/cscloud-provider-api-dtc/src/main/main6.iml
+cscloud-provider/cscloud-provider-dtc/src/main/main10.iml
+cscloud-provider/cscloud-provider-usc/src/main/main2.iml

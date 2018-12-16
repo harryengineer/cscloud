@@ -23,3 +23,31 @@ spring:
 mybatis:
   mapper-locations:
   - classpath:mapper/**.xml
+  
+auth: 
+  client: 
+    id: cscloud-auth-admin
+    token-header: Client-Auth
+    client: cscloud-auth-server
+    rsa-secret: 123456
+    expire: 3600 
+    secret: oRU5hIPW
+  # 这个是用户访问的权限认证
+  user:
+    token-header: Authorization
+    expire: 14400
+    rsa-secret: xx1WET12^%3^(WE45
+
+
+server:
+  port: 8810
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      cscloud-auth-admin:
+        requestInterceptors:
+          - com.cscloud.auth.client.interceptor.OkHttpInterceptor
+
+

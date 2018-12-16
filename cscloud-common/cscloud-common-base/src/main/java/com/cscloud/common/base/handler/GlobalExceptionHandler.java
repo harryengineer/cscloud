@@ -4,7 +4,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cscloud.common.base.constant.ErrorCode;
 import com.cscloud.common.base.exception.BaseException;
@@ -17,7 +16,6 @@ import lombok.extern.slf4j.Slf4j;
  * @author Administrator
  *
  */
-@ResponseBody
 @ControllerAdvice("com.cscloud")
 @Slf4j
 public class GlobalExceptionHandler  {

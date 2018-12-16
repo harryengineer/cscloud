@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -8,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cscloud-apollo" />
         <module name="cscloud-auth-admin" />
+        <module name="cscloud-auth-api" />
         <module name="cscloud-auth-client" />
         <module name="cscloud-auth-common" />
         <module name="cscloud-auth-server" />
@@ -26,36 +28,12 @@
         <module name="cscloud-zipkin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cscloud-apollo" target="1.8" />
-      <module name="cscloud-auth" target="1.8" />
-      <module name="cscloud-auth-admin" target="1.8" />
-      <module name="cscloud-auth-client" target="1.8" />
-      <module name="cscloud-auth-common" target="1.8" />
-      <module name="cscloud-auth-server" target="1.8" />
-      <module name="cscloud-common" target="1.8" />
-      <module name="cscloud-common-base" target="1.8" />
-      <module name="cscloud-common-config" target="1.8" />
-      <module name="cscloud-common-core" target="1.8" />
-      <module name="cscloud-eureka" target="1.8" />
-      <module name="cscloud-gateway" target="1.8" />
-      <module name="cscloud-master" target="1.8" />
-      <module name="cscloud-monitor" target="1.8" />
-      <module name="cscloud-provicer-msc" target="1.8" />
-      <module name="cscloud-provider" target="1.8" />
-      <module name="cscloud-provider-api" target="1.8" />
-      <module name="cscloud-provider-api-dtc" target="1.8" />
-      <module name="cscloud-provider-api-msc" target="1.8" />
-      <module name="cscloud-provider-api-usc" target="1.8" />
-      <module name="cscloud-provider-dtc" target="1.8" />
-      <module name="cscloud-provider-usc" target="1.8" />
-      <module name="cscloud-zipkin" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cscloud-apollo" options="-parameters" />
       <module name="cscloud-auth-admin" options="-parameters" />
+      <module name="cscloud-auth-api" options="-parameters" />
       <module name="cscloud-auth-client" options="-parameters" />
       <module name="cscloud-auth-common" options="-parameters" />
       <module name="cscloud-auth-server" options="-parameters" />

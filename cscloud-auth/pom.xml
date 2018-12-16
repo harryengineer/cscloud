@@ -10,22 +10,13 @@
   
   <dependencies>
   		<!-- 注册中心客户端 -->
-  		<dependency>
-  			<groupId>org.springframework.cloud</groupId>
-  			<artifactId>
-  				spring-cloud-netflix-eureka-client
-  			</artifactId>
-  		</dependency>
-  		<!--  服务调用feign -->
-  		<dependency>
-  			<groupId>org.springframework.cloud</groupId>
-  			<artifactId>spring-cloud-starter-openfeign</artifactId>
-  		</dependency>
+
+
   		<!-- 文档的依赖 -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>io.springfox</groupId>-->
+			<!--<artifactId>springfox-swagger2</artifactId>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>com.zhang</groupId>
 			<artifactId>cscloud-common-core</artifactId>
@@ -37,6 +28,7 @@
   	<module>cscloud-auth-client</module>
   	<module>cscloud-auth-admin</module>
   	<module>cscloud-auth-common</module>
+  	<module>cscloud-auth-api</module>
   </modules>
   
 </project>

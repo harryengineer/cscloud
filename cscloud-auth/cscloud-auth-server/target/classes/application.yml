@@ -1,10 +1,10 @@
+
 spring:
   application:
     name: cscloud-auth-server
   redis:
-    host: 192.168.0.241
-    database: 8
-    password: huisou
+    host: 47.100.56.243
+    password: yhsmdn11
     ssl: false
 # 数据库配置
   datasource:
@@ -33,24 +33,22 @@ server:
 feign:
   client:
     config:
-      cscloud-auth-admin: 
-        requestInterceptors: 
+      cscloud-auth-server:
+        requestInterceptors:
           -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
-  hystrix:
-    enabled: true
   okhttp:
     enabled: true
-     
 
 # jwt 的3个重要的数据认证  token-header是认证类型
 # 这个是服务和服务之间的
 # client是身份的id  ，rsa-secret 是rsa 的私钥,expire单位是秒,secret是登录的密码
 client: 
+  id: cscloud-auth-server
   token-header: Client-Auth
   client: cscloud-auth-server
   rsa-secret: 123456
   expire: 3600 
-  secret: sdfsdfjsopdfupsod
+  secret: cLBPDn5c
 
 # 这个是用户访问的权限认证
 jwt: 

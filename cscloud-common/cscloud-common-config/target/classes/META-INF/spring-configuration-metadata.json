@@ -20,16 +20,19 @@
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "huisou@163.com",
       "name": "swagger2.contact-email",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "cs",
       "name": "swagger2.contact-name",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "huisou",
       "name": "swagger2.contact-url",
       "type": "java.lang.String"
     },
@@ -45,11 +48,13 @@
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "Apache License 2.0",
       "name": "swagger2.license",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0",
       "name": "swagger2.license-url",
       "type": "java.lang.String"
     },
@@ -60,6 +65,7 @@
     },
     {
       "sourceType": "com.cscloud.common.config.properties.SwaggerProperties",
+      "defaultValue": "1.0",
       "name": "swagger2.version",
       "type": "java.lang.String"
     }
