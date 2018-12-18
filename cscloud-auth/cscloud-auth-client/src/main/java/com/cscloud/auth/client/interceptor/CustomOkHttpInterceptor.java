@@ -26,7 +26,6 @@ import org.springframework.context.annotation.Configuration;
  * @author Administrator
  *
  */
-@Configuration
 @Slf4j
 public class OkHttpInterceptor implements Interceptor{
 	
