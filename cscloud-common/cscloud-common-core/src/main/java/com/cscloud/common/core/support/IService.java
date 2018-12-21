@@ -1,5 +1,7 @@
 package com.cscloud.common.core.support;
 
+import com.cscloud.common.core.bean.PageBean;
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.transaction.annotation.Transactional;
@@ -169,4 +171,14 @@ public interface IService<T> {
 	 */
 	List<T> selectByExampleAndRowBounds(Object example, RowBounds rowBounds);
 
+
+	/**
+	 *  获取对应的分页
+     * @return
+	 */
+	PageInfo<T> getPage(PageBean pageBean);
+
+	default PageInfo<T> searchByCondition(PageBean pageBean, String name){
+		return null;
+	};
 }

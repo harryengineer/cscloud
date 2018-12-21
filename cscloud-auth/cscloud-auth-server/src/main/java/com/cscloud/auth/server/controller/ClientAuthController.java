@@ -81,7 +81,7 @@ public class ClientAuthController {
 	
 	/**
 	 *  根据服务器的帐号和secret验证，获取为用户准备的公钥
-	 * @param client
+	 * @param clientId
 	 * @param secret
 	 * @return
 	 */

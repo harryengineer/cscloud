@@ -105,7 +105,6 @@ public class AuthGroupPoServiceImpl extends BaseService<AuthGroupPoMapper,AuthGr
 	   /**
 	     * 获取群主关联的菜单
 	     *
-	     * @param groupId
 	     * @return
 	     */
 	    public List<AuthorityMenuTreeVo> getAuthorityMenu(int authorityId) {
@@ -116,6 +115,7 @@ public class AuthGroupPoServiceImpl extends BaseService<AuthGroupPoMapper,AuthGr
 	            node = new AuthorityMenuTreeVo();
 	            node.setText(menu.getTitle());
 	            BeanUtils.copyProperties(menu, node);
+	            node.setId(menu.getAuthMenuId());
 	            trees.add(node);
 	        }
 	        return trees;
@@ -135,7 +135,7 @@ public class AuthGroupPoServiceImpl extends BaseService<AuthGroupPoMapper,AuthGr
 	public List<Integer> getAuthorityElementByAuthorityId(int id) {
         AuthResourceAuthorityPo authority = new AuthResourceAuthorityPo();
         authority.setAuthorityType(GlobalConstants.AUTHORITY_TYPE_GROUP);
-        authority.setResourceType(GlobalConstants.RESOURCE_REQUEST_METHOD_GET);
+        authority.setResourceType(GlobalConstants.RESOURCE_TYPE_BTN);
         authority.setAuthorityId(id + "");
         List<AuthResourceAuthorityPo> authorities = authResourceAuthorityPoMapper.select(authority);
         List<Integer> ids = new ArrayList<Integer>();

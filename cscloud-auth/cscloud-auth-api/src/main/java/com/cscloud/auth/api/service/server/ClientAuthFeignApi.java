@@ -3,6 +3,7 @@ package com.cscloud.auth.api.service.server;
 
 import java.util.List;
 
+import com.cscloud.auth.api.service.server.hystrix.ClientAuthFeignApiHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,10 +18,10 @@ import com.cscloud.common.base.wrapper.Wrapper;
  * @author Administrator
  *
  */
-@FeignClient(value ="cscloud-auth-server")
+@FeignClient(value ="cscloud-auth-server",fallback = ClientAuthFeignApiHystrix.class,qualifier = "authApiClient")
 public interface ClientAuthFeignApi {
 	
-	@GetMapping(value = "/client/token")
+	@PostMapping(value = "/client/token")
 	public  Wrapper<String> getClientToken(@RequestParam(name = "clientId") String clientId, @RequestParam(name = "secret") String secret) ;
 	
 	@GetMapping(value = "/client/getAllowClient")
@@ -31,6 +32,5 @@ public interface ClientAuthFeignApi {
 	
 	@GetMapping(value = "/client/getUserPubKey")
 	public Wrapper<byte[]> getUserPublicKey(@RequestParam(name = "clientId")String clientId,@RequestParam(name = "secret")String secret);
-	
-	
+
 }

@@ -51,17 +51,26 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 	}
 	@Override
 	public List<String> getAllowedClient(String clientId) {
-		List<String> list = mapper.getAllowedClient(clientId);
+		AuthClientPo info = getClient(clientId);
+		List<String> list = mapper.getAllowedClient(info.getId() + "");
 		if (list == null) {
 			list = new ArrayList<>();
 		}
 		return list;
 	}
 
+	private AuthClientPo getClient(String clientId) {
+		AuthClientPo authClientPo = new AuthClientPo();
+		authClientPo.setCode(clientId);
+		AuthClientPo po = mapper.selectOne(authClientPo);
+		return po;
+	}
+
 	@Override
 	public List<String> getAllowedClient(String clientId, String secret) throws Exception {
 		AuthClientPo client = getClient(clientId,secret);
 		return getAllowedClient(String.valueOf(client.getId()));
+
 		
 	}
 

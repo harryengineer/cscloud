@@ -1,26 +1,13 @@
 package com.cscloud.gateway;
 
 import com.cscloud.auth.client.EnableAuthClient;
-import com.cscloud.auth.client.interceptor.OkHttpInterceptor;
-import com.cscloud.gateway.handler.GlobalErrorWebExceptionHandler;
+import feign.Client;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Primary;
-import org.springframework.core.Ordered;
-import org.springframework.core.annotation.Order;
-import org.springframework.http.codec.ServerCodecConfigurer;
-import org.springframework.web.reactive.result.view.ViewResolver;
-
-import java.util.Collections;
-import java.util.List;
 
 /**
  * zuul，是springcloud的网关
@@ -31,10 +18,9 @@ import java.util.List;
 @EnableEurekaClient
 // 导入api的依赖扫描包
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class},scanBasePackages = {"com.cscloud.auth.api.service","com.cscloud.gateway"}) // 不再application的目录下面所以需要扫描
-@EnableFeignClients(basePackages = "com.cscloud.auth")
+@EnableFeignClients(basePackages = "com.cscloud.auth.api.service")
 @EnableAuthClient
 @Slf4j
-@Import(OkHttpInterceptor.class)
 public class CsCloudGatewayApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder(CsCloudGatewayApplication.class).run(args);

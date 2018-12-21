@@ -31,7 +31,6 @@ public class UserDetailController {
 	
 	@RequestMapping(value = "/helloworld")
 	public Wrapper  hello(String test) {
-		System.out.println("=====");
 		return Wrapper.success("hello");
 	}
 }

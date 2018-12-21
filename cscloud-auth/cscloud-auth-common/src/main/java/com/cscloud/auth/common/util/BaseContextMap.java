@@ -12,6 +12,7 @@ import com.cscloud.common.base.util.StringHelperUtils;
  * @author Administrator
  *
  */
+@SuppressWarnings("all")
 public class BaseContextMap {
 
 	public static ThreadLocal<Map<String, Object>> threadLocal = new ThreadLocal<>();
@@ -82,6 +83,15 @@ public class BaseContextMap {
 	private static String returnObjectValue(Object value) {
 		return value == null ? null : value.toString();
 	}
+
+	public static void setHost(String url){
+		set("host",url);
+	};
+
+	public static String getHost(){
+		return returnObjectValue(get("host"));
+	}
+
 
 	/**
 	 * 删除保存的用户信息

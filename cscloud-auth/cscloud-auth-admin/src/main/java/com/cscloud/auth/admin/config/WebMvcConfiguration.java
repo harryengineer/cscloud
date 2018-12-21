@@ -1,10 +1,18 @@
 package com.cscloud.auth.admin.config;
 
+import java.lang.reflect.Array;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.MediaType;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.StringHttpMessageConverter;
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -19,7 +27,6 @@ import com.cscloud.common.base.handler.GlobalExceptionHandler;
  *
  */
 @Configuration
-@EnableWebMvc
 public class WebMvcConfiguration implements WebMvcConfigurer{
 	
 	/**
@@ -58,6 +65,18 @@ public class WebMvcConfiguration implements WebMvcConfigurer{
 		
 		
 	}
+
+	/**
+	 * 配置响应的编码集
+	 * @param converters
+	 */
+	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+		StringHttpMessageConverter stringHttpMessageConverter = new StringHttpMessageConverter();
+		stringHttpMessageConverter.setDefaultCharset(StandardCharsets.UTF_8);
+
+		converters.add(stringHttpMessageConverter);
+	}
+
 	
 	 /**
      * 需要用户和服务认证判断的路径

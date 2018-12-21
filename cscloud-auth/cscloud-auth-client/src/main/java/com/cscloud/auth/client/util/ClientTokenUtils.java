@@ -4,6 +4,7 @@ package com.cscloud.auth.client.util;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -18,6 +19,8 @@ import com.cscloud.common.base.wrapper.Wrapper;
 
 import lombok.extern.slf4j.Slf4j;
 
+import javax.annotation.Resource;
+
 /**
  * 用户的token的工具类，核心是获取用户token已经刷新过期等等
  * 
@@ -30,7 +33,7 @@ import lombok.extern.slf4j.Slf4j;
 @EnableScheduling
 public class ClientTokenUtils {
 	
-	@Autowired
+	@Resource
 	private ClientAuthFeignApi clientFeignApi;
 	
 	@Autowired
@@ -76,7 +79,7 @@ public class ClientTokenUtils {
 	/**
 	 * 30 查询到自己允许的服务器，并保存到本地
 	 */
-	@Scheduled(cron = "0 0/30 * * * ?")
+	@Scheduled(cron = "0 */30 * * * ?")
 	public void allowClients() {
 		log.info("get the allowed client........");
 		Wrapper<List<String>> clientList = clientFeignApi.getAllowClient(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());

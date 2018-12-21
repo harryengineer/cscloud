@@ -48,9 +48,10 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 		}
 		
 		//问题： 缺少过期时间在jsonwebtoken  中自动验证了）
-		
 		List<String> allowClientNames = authClientSerivce.getAllowedClient(client.getClientId());
+		System.out.println( "====:" + jwtInfo.getUniqueName());
 		for (String allowclientName : allowClientNames) {
+			System.out.println( "==allowclientName==:" + allowclientName);
 			if (jwtInfo.getUniqueName().equals(allowclientName)) {
 				return HandlerInterceptor.super.preHandle(request, response, handler);
 			}

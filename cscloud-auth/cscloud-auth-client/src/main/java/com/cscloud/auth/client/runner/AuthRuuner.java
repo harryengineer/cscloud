@@ -42,12 +42,14 @@ public class AuthRuuner implements CommandLineRunner {
 		try {
 			refreshUserPublicKey();
 		} catch (Exception e) {
+			e.printStackTrace();
 			log.error("获取user的公钥失败，稍后重试,异常原因{}",e.getMessage());
 		}
 		
 		try {
 			refreshClientPublicKey();
 		} catch (Exception e) {
+			e.printStackTrace();
 			log.error("获取client的公钥失败，稍后重试,异常原因{}",e.getMessage());
 		}
 		
@@ -57,7 +59,7 @@ public class AuthRuuner implements CommandLineRunner {
 	 *10分钟获取一次公钥
 	 *
 	 */
-	@Scheduled(cron = "0 0/10 * * * ?")
+	@Scheduled(cron = "0 */10 * * * ?")
 	private void refreshClientPublicKey() {
 		Wrapper<byte[]> result = authFeignApi.getClientPublicKey(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());
 		log.info("获取加密client的publickey的数据：{}",result.getStatus());

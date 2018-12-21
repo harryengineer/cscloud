@@ -1,11 +1,9 @@
 package com.cscloud.auth.api.service.admin;
 
 import java.util.List;
-import java.util.Map;
 
 import com.cscloud.auth.api.model.RequestAuthentication;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 

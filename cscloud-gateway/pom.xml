@@ -38,7 +38,6 @@
 			<groupId>com.zhang</groupId>
 			<artifactId>cscloud-auth-client</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework</groupId>

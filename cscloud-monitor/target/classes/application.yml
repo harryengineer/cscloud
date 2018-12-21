@@ -1,0 +1,19 @@
+server:
+  port: 8808
+  
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cscloud-monitor
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka/
+     
+    
+turbine:
+  app-config: cscloud-provider-usc,cscloud-provider-dtc
+  cluster-name-expression: new String("default")
+  combine-host-port: true

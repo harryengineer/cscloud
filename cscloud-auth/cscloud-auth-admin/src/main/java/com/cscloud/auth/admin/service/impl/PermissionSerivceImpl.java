@@ -122,10 +122,11 @@ public class PermissionSerivceImpl  implements PermissionService {
 
 
 	    private List<MenuTree> getMenuTree(List<AuthMenuPo> menus, int root) {
-	        List<MenuTree> trees = new ArrayList<MenuTree>();
+	        List<MenuTree> trees = new ArrayList<>();
 	        MenuTree node = null;
 	        for (AuthMenuPo menu : menus) {
 	            node = new MenuTree();
+	            node.setId(menu.getAuthMenuId());
 	            BeanUtils.copyProperties(menu, node);
 	            trees.add(node);
 	        }
@@ -139,6 +140,7 @@ public class PermissionSerivceImpl  implements PermissionService {
 	        }
 	        AuthUserVo user = this.getUserByUsername(username);
 	        UserPermissionVo frontUser = new UserPermissionVo();
+	        frontUser.setId(user.getId());
 	        BeanUtils.copyProperties(user, frontUser);
 	        List<AuthPermissionVo> permissionInfos = this.getPermissionByUsername(username);
 	        Stream<AuthPermissionVo> menus = permissionInfos.parallelStream().filter((permission) -> {

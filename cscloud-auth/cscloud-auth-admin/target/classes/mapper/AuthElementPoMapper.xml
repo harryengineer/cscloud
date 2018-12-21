@@ -55,11 +55,10 @@
 		t. NAME,
 		t.uri,
 		t.method,
-		m.title AS menu_id,
+		m.title AS menu_id
 		FROM
 		auth_base_resource_authority ra
-		INNER JOIN auth_base_element t ON ra.resource_id =
-		t.auth_element_id
+		INNER JOIN auth_base_element t ON ra.resource_id = t.auth_element_id
 		AND ra.authority_id IN (
 		SELECT
 		group_id

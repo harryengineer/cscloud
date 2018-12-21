@@ -9,7 +9,7 @@
 				auth_client a
 			INNER JOIN auth_client_resouce b ON a.id = b.service_id
 			WHERE
-				b.service_id = #{clientId}
+				b.client_id = #{clientId}
 	</select>
 
 

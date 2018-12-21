@@ -36,35 +36,26 @@ public class UserRequestInterceptor extends HandlerInterceptorAdapter {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
-		 HandlerMethod handlerMethod = (HandlerMethod) handler;
-		 IgnoreUserToken annotation = handlerMethod.getBeanType().getAnnotation(IgnoreUserToken.class);
-		 if (annotation != null) {
-			 annotation = handlerMethod.getMethodAnnotation(IgnoreUserToken.class);
-		 }
-
-		System.out.println(request.getRequestURL());
-		 if (annotation != null) {
-			 return super.preHandle(request, response, handler);
-		 }
-
-		Enumeration headerNames = request.getHeaderNames();
-		while (headerNames.hasMoreElements()) {
-			String key = (String) headerNames.nextElement();
-			String value = request.getHeader(key);
-			System.out.println("key: -" + key + "---value:" + value);
+		if (handler instanceof HandlerMethod){
+			HandlerMethod handlerMethod = (HandlerMethod) handler;
+			IgnoreUserToken annotation = handlerMethod.getBeanType().getAnnotation(IgnoreUserToken.class);
+			if (annotation != null) {
+				annotation = handlerMethod.getMethodAnnotation(IgnoreUserToken.class);
+			}
+			System.out.println(request.getRequestURL());
+			if (annotation != null) {
+				return super.preHandle(request, response, handler);
+			}
 		}
 
 
-
-
-
-
-
-		 
 		//先从header中获取token信息，如果获取不到的话，那么到去cookie中获取
 		String token = request.getHeader(userAuthProperties.getUserTokenHeader());
 		if (StringUtils.isEmpty(token)) {
 			Cookie[] cookies = request.getCookies();
+			if (cookies == null){
+				throw new BaseException(ErrorCode.SYSTEM_ERROR);
+			}
 			for (Cookie cookie : cookies) {
 				if (userAuthProperties.getUserTokenHeader().equals(cookie.getName())) {
 					token = cookie.getValue();
@@ -82,6 +73,7 @@ public class UserRequestInterceptor extends HandlerInterceptorAdapter {
 			BaseContextMap.setName(info.getName());
 			BaseContextMap.setUserID(info.getId());
 			BaseContextMap.setUsername(info.getUniqueName());
+			BaseContextMap.setHost(request.getRemoteHost());
 			 return super.preHandle(request, response, handler);
 		}
 		

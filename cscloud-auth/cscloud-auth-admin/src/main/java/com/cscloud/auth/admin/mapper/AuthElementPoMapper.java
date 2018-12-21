@@ -2,11 +2,11 @@ package com.cscloud.auth.admin.mapper;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import com.cscloud.auth.admin.domain.AuthElementPo;
 import com.cscloud.common.core.mybatis.MyMapper;
-
 
 public interface AuthElementPoMapper extends MyMapper<AuthElementPo> {
 

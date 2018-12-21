@@ -1,9 +1,14 @@
 package com.cscloud.auth.admin.vo;
 
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 /**
  * 这个按钮的树
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class MenuTree extends TreeNode {
     String icon;
     String title;

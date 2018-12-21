@@ -17,10 +17,10 @@ public class TreeUtils {
 	   * @param treeNodes 传入的树节点列表
 	   * @return
 	   */
-	  public static <T extends TreeNode> List<T> bulid(List<T> treeNodes,Object root) {
+	  public static <T extends TreeNode> List<T> bulid(List<T> treeNodes,int root) {
 	    List<T> trees = new ArrayList<T>();
 	    for (T treeNode : treeNodes) {
-	      if (root.equals(treeNode.getParentId())) {
+	      if (root == treeNode.getParentId()) {
 	        trees.add(treeNode);
 	      }
 	      
@@ -29,12 +29,11 @@ public class TreeUtils {
 	          if (treeNode.getChildren() == null) {
 	            treeNode.setChildren(new ArrayList<TreeNode>());
 	          }
-	          
 	          treeNode.add(it);
 	        }
 	      }
 	    }
-	    
+
 	    return trees;
 	  }
 
@@ -44,10 +43,10 @@ public class TreeUtils {
 	   * @param treeNodes
 	   * @return
 	   */
-	  public static <T extends TreeNode> List<T> buildByRecursive(List<T> treeNodes,Object root) {
+	  public static <T extends TreeNode> List<T> buildByRecursive(List<T> treeNodes,int root) {
 	    List<T> trees = new ArrayList<T>();
 	    for (T treeNode : treeNodes) {
-	      if (root.equals(treeNode.getParentId())) {
+	      if (root == treeNode.getParentId()) {
 	        trees.add(findChildren(treeNode, treeNodes));
 	      }
 	    }

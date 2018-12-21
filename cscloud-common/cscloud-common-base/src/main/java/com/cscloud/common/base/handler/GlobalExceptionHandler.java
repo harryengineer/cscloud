@@ -28,9 +28,17 @@ public class GlobalExceptionHandler  {
 
     @ExceptionHandler(Exception.class)
     public Wrapper otherExceptionHandler(HttpServletResponse response, Exception ex) {
-        response.setStatus(500);
+	    if (ex instanceof BaseException){
+            BaseException exception =(BaseException)ex;
+            response.setStatus(exception.getCode());
+        }else{
+            response.setStatus(500);
+        }
+
         log.error(ex.getMessage(),ex);
         return new Wrapper(ErrorCode.SYSTEM_ERROR.getCode(), ex.getMessage());
     }
+
+
 	
 }

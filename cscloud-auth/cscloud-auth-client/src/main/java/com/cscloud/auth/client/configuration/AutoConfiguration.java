@@ -7,8 +7,9 @@ import com.cscloud.auth.client.properties.ClientAuthProperties;
 import com.cscloud.auth.client.properties.UserAuthProperties;
 import org.springframework.context.annotation.Configuration;
 
-@ComponentScan(basePackages= {"com.cscloud.auth.client"})
+
 @Configuration
+@ComponentScan(basePackages= {"com.cscloud.auth.client"})
 public class AutoConfiguration {
 	
 	@Bean
@@ -20,5 +21,6 @@ public class AutoConfiguration {
 	public UserAuthProperties userAuthProperties() {
 		return new UserAuthProperties();
 	}
+
 	
 }

@@ -1,68 +1,72 @@
-/*package com.cscloud.common.core.support;
-
-import javax.servlet.http.HttpServletRequest;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+package com.cscloud.common.core.support;
 
 import com.cscloud.common.base.util.ResUtils;
+import com.cscloud.common.core.bean.PageBean;
+import com.cscloud.common.core.support.IService;
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-*//**
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
+
+/**
  * 基础的controller 继承之后的话保存，获取id，分页等信息暂时用不到
- * 
  * @author Administrator
  *
- * @param <Service>
  * @param <Entity>
- *//*
-public class BaseController<Service extends IService<Entity>, Entity> {
+ */
+abstract  public class BaseController <T extends IService<Entity>,Entity> {
 
-	@Autowired
+    @Autowired
 	protected HttpServletRequest request;
-	@Autowired
-	protected Service baseSerivce;
+
+    public BaseController(T t){
+        this.baseService = t;
+    }
+
+	protected T baseService;
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String add(@RequestBody Entity entity) {
-		baseSerivce.save(entity);
+		baseService.save(entity);
 		return ResUtils.okRes();
 	}
 
-	@RequestMapping(value = "/getById", method = RequestMethod.GET)
+	@RequestMapping(value = "/get/{id}", method = RequestMethod.GET)
 	@ResponseBody
-	public String get(int id) {
-		Entity entity = baseSerivce.selectByKey(id);
+	public String get(@PathVariable int id) {
+		Entity entity = baseService.selectByKey(id);
 		return ResUtils.okRes(entity);
 	}
 
 	@RequestMapping(value = "/update", method = RequestMethod.PUT)
 	public String update(@RequestBody Entity entity) {
-		baseSerivce.update(entity);
+		baseService.update(entity);
 		return ResUtils.okRes();
 	}
 
-	@RequestMapping(value = "/deleteById", method = RequestMethod.DELETE)
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
 	@ResponseBody
 	public String remove(@PathVariable int id) {
-		baseSerivce.deleteByKey(id);
+		baseService.deleteByKey(id);
 		return ResUtils.okRes();
 	}
 
 	@RequestMapping(value = "/all", method = RequestMethod.GET)
 	public String all() {
-		return ResUtils.okRes(baseSerivce.selectAll());
+		return ResUtils.okRes(baseService.selectAll());
 	}
 
-//  用不到把
-//	@RequestMapping(value = "/page", method = RequestMethod.GET)
-//	public String getPage(PageTemp pageTemp,@RequestBody Entity entity) {
-//		
-//		return baseSerivce.selectPageByCondition(pageTemp,entity);
-//	}
+
+    /**
+     * 查询对应的内容，只有初始化初始化查询字段才可以进行搜索
+     * @return
+     */
+    @RequestMapping(value = "/page",method = RequestMethod.GET)
+    public String page(PageBean pageBean,Map<String,Object> page){
+        PageInfo<Entity> pageInfo = baseService.getPage(pageBean);
+        return ResUtils.okRes(pageInfo);
+    }
 
 }
-*/

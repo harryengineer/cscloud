@@ -10,7 +10,7 @@ public interface AuthElementPoService extends IService<AuthElementPo> {
 
 	/**
 	 * 通过按钮的id获取按钮的所有符合权限的元素
-	 * @param string
+	 * @param userId
 	 * @param menuId
 	 * @return
 	 */
@@ -18,7 +18,7 @@ public interface AuthElementPoService extends IService<AuthElementPo> {
 
 	/**
 	 * 通过 用户的id获取所有符合条件的元素
-	 * @param string
+	 * @param userId
 	 * @return
 	 */
 	List<AuthElementPo> getAuthorityElementByUserId(String userId);

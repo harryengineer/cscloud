@@ -17,13 +17,13 @@ public class ResUtils {
     // 账号或者密码错误
     public static String errUser = "账号或密码错误";
 
-    public static String CODE = "code";
+    public static String STATUS = "status";
     public static String MSG = "msg";
     public static String DATA = "data";
 
     public static String okRes() {
         Map map = new HashMap();
-        map.put(CODE, ErrorCode.OK.getCode());
+        map.put(STATUS, ErrorCode.OK.getCode());
         map.put(MSG, ErrorCode.OK.getMessage());
         try {
             return resJsonOrJsonP(JacksonUtils.toJson(map));
@@ -37,7 +37,7 @@ public class ResUtils {
     public static String okRes(Object obj) {
 
         Map map = new HashMap();
-        map.put(CODE, ErrorCode.OK.getCode());
+        map.put(STATUS, ErrorCode.OK.getCode());
         map.put(MSG, ErrorCode.OK.getMessage());
         map.put(DATA, obj);
 
@@ -54,7 +54,7 @@ public class ResUtils {
 
     public static String execRes(ErrorCode obj) {
         Map map = new HashMap();
-        map.put(CODE, obj.getValue());
+        map.put(STATUS, obj.getValue());
         map.put(MSG, obj.getMessage());
         try {
             return resJsonOrJsonP(JacksonUtils.toJson(map));
@@ -67,7 +67,7 @@ public class ResUtils {
 
     public static String execRes() {
         Map map = new HashMap();
-        map.put(CODE, ErrorCode.SYSTEM_ERROR.getCode());
+        map.put(STATUS, ErrorCode.SYSTEM_ERROR.getCode());
         map.put(MSG, ErrorCode.SYSTEM_ERROR.getMessage());
         try {
             return resJsonOrJsonP(JacksonUtils.toJson(map));
@@ -80,7 +80,7 @@ public class ResUtils {
 
     public static String errRes(String code, String msg) {
         Map map = new HashMap();
-        map.put(CODE, code);
+        map.put(STATUS, code);
         map.put(MSG, msg);
         try {
             return resJsonOrJsonP(JacksonUtils.toJson(map));
@@ -93,7 +93,7 @@ public class ResUtils {
     
     public static String errRes(String code, String msg, String data) {
         Map map = new HashMap();
-        map.put(CODE, code);
+        map.put(STATUS, code);
         map.put(MSG, msg);
         map.put(DATA, data);
         try {

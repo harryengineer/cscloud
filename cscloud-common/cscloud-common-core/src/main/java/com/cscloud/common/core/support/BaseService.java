@@ -1,7 +1,13 @@
 package com.cscloud.common.core.support;
 
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
 import java.util.List;
+import java.util.Map;
 
+import com.cscloud.common.core.bean.PageBean;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.session.RowBounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +17,7 @@ import com.cscloud.common.base.exception.BaseException;
 import com.cscloud.common.core.mybatis.MyMapper;
 
 import tk.mybatis.mapper.common.Mapper;
+import tk.mybatis.mapper.entity.Example;
 
 /**
  * 在原有的基础上进行进一层的封装，避免service层写对应的实现类
@@ -259,6 +266,13 @@ public abstract class BaseService<M extends MyMapper<T>,T> implements IService<T
 		return mapper.selectByExampleAndRowBounds(example, rowBounds);
 	}
 
+	@Override
+	public PageInfo<T> getPage(PageBean pageBean){
+		PageHelper.startPage(pageBean.getPage(),pageBean.getLimit());
+		List<T> list = mapper.selectAll();
+		return new PageInfo<T>(list);
+	}
+
 //	 public String selectByQuery(LinkedHashMap<K, V> query) {
 //	        Class<T> clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[1];
 //	        Example example = new Example(clazz);
@@ -271,6 +285,8 @@ public abstract class BaseService<M extends MyMapper<T>,T> implements IService<T
 //	        Page<Object> result = PageHelper.startPage(query.getPage(), query.getLimit());
 //	        return ResUtils.okRes(result);
 //	    }
+
+
 	
 	
 	/**

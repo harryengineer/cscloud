@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 import javax.annotation.Resource;
 
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
@@ -52,20 +53,20 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 
 	private String GATEWAY_PREFIX = "/api";
 
-	@Resource
+	@Autowired
 	private UserAuthProperties userProperties;
 
-	@Resource
+	@Autowired
 	private UserTokenUtils userTokenUtils;
 
 	@Resource
 	private AuthAdminUserFeignApi authAdminUserFeignApi;
-	
-	@Resource
+
+	@Autowired
 	private ClientAuthProperties clientAuthProperties;
-	
-	
-	@Resource
+
+
+	@Autowired
 	private ClientTokenUtils  clientTokenUtils;
 
 	@Value("${gateway.ignore.url}")
@@ -138,8 +139,8 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 		
 		//成功后添加权限信息
 		mutate.header(clientAuthProperties.getTokenHeader(),clientTokenUtils.getToken());
-		
-		return chain.filter(exchange.mutate().request(mutate.build()).build());
+		Mono<Void> filter = chain.filter(exchange.mutate().request(mutate.build()).build());
+		return filter;
 	}
 
 	/**
@@ -240,6 +241,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 		if (StringUtils.isBlank(authToken)){
 			throw new BaseException(ErrorCode.USER_NO_TOKEN);
 		}
+		log.info("获取的token数据为：{}",authToken);
 		// 获取token，然后放到本地缓存和mutate中的，如果改变属性就将属性放进去重新创建
 		BaseContextMap.setUserToken(authToken);
 		mutate.header(userProperties.getUserTokenHeader(), authToken);

@@ -7,6 +7,10 @@ spring:
   application:
     name: cscloud-gateway
   cloud:
+    httpclient:
+      ok:
+        enabled:
+          false
     gateway:
       routes:
       - id: cscloud-provider-usc #转发路径的唯一标识
@@ -27,11 +31,15 @@ spring:
           - Path=/api/auth/admin/**
         filters:
           - StripPrefix=3
+    httpclientfactories:
+    loadbalancer:
+      retry:
+        enabled: true
 
 
 
 
- # 门户网站的忽略
+  # 门户网站的忽略
   datasource:
     initialization-mode: embedded
 gateway:
@@ -49,5 +57,3 @@ auth:
 feign:
   okhttp:
     enabled: true
-
-
