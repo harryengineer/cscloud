@@ -144,7 +144,6 @@
 	<modules>
 		<module>cscloud-eureka</module>
 		<module>cscloud-gateway</module>
-		<module>cscloud-zipkin</module>
 		<module>cscloud-monitor</module>
 		<module>cscloud-apollo</module>
 		<module>cscloud-provider</module>

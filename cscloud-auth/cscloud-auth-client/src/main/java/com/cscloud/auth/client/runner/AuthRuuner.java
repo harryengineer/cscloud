@@ -60,7 +60,7 @@ public class AuthRuuner implements CommandLineRunner {
 	 *
 	 */
 	@Scheduled(cron = "0 */10 * * * ?")
-	private void refreshClientPublicKey() {
+	public void refreshClientPublicKey() {
 		Wrapper<byte[]> result = authFeignApi.getClientPublicKey(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());
 		log.info("获取加密client的publickey的数据：{}",result.getStatus());
 		if (result.getStatus() == HttpStatus.OK.value()) {
@@ -72,7 +72,7 @@ public class AuthRuuner implements CommandLineRunner {
 	}
 
 	@Scheduled(cron = "0 */10 * * * ?")
-	private void refreshUserPublicKey() {
+	public void refreshUserPublicKey() {
 		Wrapper<byte[]> result = authFeignApi.getUserPublicKey(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());
 		log.info("获取加密user的publickey的数据：{}",result.getStatus());
 		if (result.getStatus() == HttpStatus.OK.value()) {

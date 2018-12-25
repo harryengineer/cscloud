@@ -52,6 +52,7 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 	@Override
 	public List<String> getAllowedClient(String clientId) {
 		AuthClientPo info = getClient(clientId);
+		logger.info("通过code：{}获取的数据{}",clientId,info);
 		List<String> list = mapper.getAllowedClient(info.getId() + "");
 		if (list == null) {
 			list = new ArrayList<>();
@@ -69,7 +70,7 @@ public class AuthClientServiceImpl extends BaseService<AuthClientPoMapper,AuthCl
 	@Override
 	public List<String> getAllowedClient(String clientId, String secret) throws Exception {
 		AuthClientPo client = getClient(clientId,secret);
-		return getAllowedClient(String.valueOf(client.getId()));
+		return getAllowedClient(String.valueOf(client.getCode()));
 
 		
 	}

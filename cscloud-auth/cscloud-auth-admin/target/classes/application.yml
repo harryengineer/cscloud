@@ -29,6 +29,8 @@ spring:
       charset: utf-8
       enabled: true
       force-request: true
+  zipkin:
+    base-url: http://localhost:9411
 
 
 mybatis:
@@ -55,6 +57,8 @@ server:
   port: 8810
   tomcat:
     uri-encoding: UTF-8
+
+# 拦截器配置
 feign:
   okhttp:
     enabled: true

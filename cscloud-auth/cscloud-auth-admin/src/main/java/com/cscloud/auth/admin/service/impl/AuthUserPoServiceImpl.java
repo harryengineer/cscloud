@@ -3,6 +3,7 @@ package com.cscloud.auth.admin.service.impl;
 import com.cscloud.common.core.bean.PageBean;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.cscloud.auth.admin.domain.AuthUserPo;
@@ -36,4 +37,11 @@ public class AuthUserPoServiceImpl extends BaseService<AuthUserPoMapper, AuthUse
 		List<AuthUserPo> list = mapper.selectByExample(example);
 		return new PageInfo<>(list);
 	}
+	@Override
+	public int save(AuthUserPo record) {
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
+		record.setPassword(encoder.encode(record.getPassword().trim()));
+		return mapper.insertSelective(record);
+	}
+
 }

@@ -1,0 +1,21 @@
+server:
+  port: 8812
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cscloud-admin
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+eureka:
+  instance:
+    health-check-url-path: /actuator/health

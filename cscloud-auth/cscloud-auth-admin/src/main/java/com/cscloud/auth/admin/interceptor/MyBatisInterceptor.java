@@ -106,7 +106,7 @@ public class MyBatisInterceptor implements Interceptor {
                     //操作之后的值
                     if (!"auth_operate_log".equals(entry.getKey().getName())){
                         AuthOperateLogPo po = new AuthOperateLogPo();
-                        po.setSqlContext(JSONUtils.toJSONString(paramObj));
+                        po.setSqlContext(paramObj.toString());
                         po.setCrtTime(new Date());
                         po.setOpType(entry.getValue().toString());
                         po.setTableName(entry.getKey().getName());

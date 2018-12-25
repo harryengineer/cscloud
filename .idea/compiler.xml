@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -18,7 +19,6 @@
         <module name="cscloud-common-core" />
         <module name="cscloud-eureka" />
         <module name="cscloud-gateway" />
-        <module name="cscloud-monitor" />
         <module name="cscloud-provicer-msc" />
         <module name="cscloud-provider-api-dtc" />
         <module name="cscloud-provider-api-msc" />
@@ -26,8 +26,13 @@
         <module name="cscloud-provider-dtc" />
         <module name="cscloud-provider-usc" />
         <module name="cscloud-zipkin" />
+        <module name="cscloud-zipkin (1)" />
+        <module name="cscloudadmin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cscloud-zipkin (2)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
@@ -51,6 +56,9 @@
       <module name="cscloud-provider-dtc" options="-parameters" />
       <module name="cscloud-provider-usc" options="-parameters" />
       <module name="cscloud-zipkin" options="-parameters" />
+      <module name="cscloud-zipkin (1)" options="-parameters" />
+      <module name="cscloud-zipkin (2)" options="-parameters" />
+      <module name="cscloudadmin" options="-parameters" />
     </option>
   </component>
 </project>

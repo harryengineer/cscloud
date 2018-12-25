@@ -33,6 +33,9 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
 		registry.addInterceptor(clientAuthInterceptor()).addPathPatterns("/service/**");
 	}
 
+
+
+
 	/**
 	 * 注入之前的2个拦截器
 	 * 

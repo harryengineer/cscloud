@@ -79,9 +79,9 @@ public class ClientTokenUtils {
 	/**
 	 * 30 查询到自己允许的服务器，并保存到本地
 	 */
-	@Scheduled(cron = "0 */30 * * * ?")
+	@Scheduled(cron = "0 */2 * * * ?")
 	public void allowClients() {
-		log.info("get the allowed client........");
+		log.info("get the allowed client........{}",clientAuthProperties.getClientId());
 		Wrapper<List<String>> clientList = clientFeignApi.getAllowClient(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());
 		if (clientList.getStatus() == 200) {
 			this.allowClients = clientList.getData();

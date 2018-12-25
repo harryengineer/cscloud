@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/cscloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-provider-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc" charset="UTF-8" />

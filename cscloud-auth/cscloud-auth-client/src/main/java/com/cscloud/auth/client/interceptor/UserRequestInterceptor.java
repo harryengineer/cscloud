@@ -78,9 +78,6 @@ public class UserRequestInterceptor extends HandlerInterceptorAdapter {
 		}
 		
 		throw new BaseException(ErrorCode.USER_NO_EXIST);
-		
-		
-		
 	}
 	
 	

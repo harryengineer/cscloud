@@ -59,7 +59,8 @@ public class AuthResourceAuthorityPo implements Serializable {
     @Column(name = "crt_host")
     private String crtHost;
 
-    private String attr1;
+    @Column(name = "upd_time")
+    private String updTime;
 
     private String attr2;
 
@@ -261,19 +262,6 @@ public class AuthResourceAuthorityPo implements Serializable {
         this.crtHost = crtHost;
     }
 
-    /**
-     * @return attr1
-     */
-    public String getAttr1() {
-        return attr1;
-    }
-
-    /**
-     * @param attr1
-     */
-    public void setAttr1(String attr1) {
-        this.attr1 = attr1;
-    }
 
     /**
      * @return attr2
@@ -359,6 +347,14 @@ public class AuthResourceAuthorityPo implements Serializable {
         this.attr7 = attr7;
     }
 
+    public String getUpdTime() {
+        return updTime;
+    }
+
+    public void setUpdTime(String updTime) {
+        this.updTime = updTime;
+    }
+
     /**
      * @return attr8
      */
@@ -391,7 +387,7 @@ public class AuthResourceAuthorityPo implements Serializable {
         sb.append(", crtUser=").append(crtUser);
         sb.append(", crtName=").append(crtName);
         sb.append(", crtHost=").append(crtHost);
-        sb.append(", attr1=").append(attr1);
+        sb.append(", attr1=").append(updTime);
         sb.append(", attr2=").append(attr2);
         sb.append(", attr3=").append(attr3);
         sb.append(", attr4=").append(attr4);

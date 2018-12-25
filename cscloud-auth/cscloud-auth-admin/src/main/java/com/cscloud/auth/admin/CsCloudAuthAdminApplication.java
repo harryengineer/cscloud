@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 import com.cscloud.auth.client.EnableAuthClient;
-import org.springframework.context.annotation.Import;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
