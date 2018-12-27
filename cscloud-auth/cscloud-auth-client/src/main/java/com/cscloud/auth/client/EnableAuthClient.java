@@ -14,6 +14,7 @@ import com.cscloud.auth.client.configuration.AutoConfiguration;
 
 /**
  *  这个注解是加入注解的时候，自动添加访问的拦截器，对于访问进行对应的权限控制和认证。
+ *  使用AuthClient必须使用okHttp
  *  
  * @author Administrator
  *

@@ -41,6 +41,7 @@ public class ClientAuthInterceptor implements HandlerInterceptor {
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
 		String token = request.getHeader(client.getClientTokenHeader());
+		log.info("get the client of token :{}",token);
 		IJWTInfo jwtInfo = clientTokenUtils.getInfoFromToken(token);
 		log.info("the token of client :{}, and the clientId is :{}", token, jwtInfo.getId());
 		if (StringUtils.isBlank(jwtInfo.getUniqueName())) {

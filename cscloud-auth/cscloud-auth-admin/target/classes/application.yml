@@ -67,3 +67,16 @@ feign:
       cscloud-auth-admin:
         requestInterceptors:
           - com.cscloud.auth.client.interceptor.CustomOkHttpInterceptor
+  hystrix:
+    enabled: true
+
+# 默认值开启/info ,和health断点，boot2.0之后需要开启其他的监控断点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+

@@ -1,4 +1,6 @@
 eureka:
+  # 设置默认环境
+  environment: dev
   instance:
     hostname: localhost
   client:
@@ -10,6 +12,7 @@ eureka:
 spring:
   profiles:
     active: dev
+
   application:
     name: cscloud-eureka
-      
+

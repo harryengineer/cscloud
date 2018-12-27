@@ -37,10 +37,6 @@ public class AuthGroupPo implements Serializable {
      */
     private String path;
 
-    /**
-     * 类型
-     */
-    private String type;
 
     /**
      * 角色组类型
@@ -178,23 +174,7 @@ public class AuthGroupPo implements Serializable {
         this.path = path;
     }
 
-    /**
-     * 获取类型
-     *
-     * @return type - 类型
-     */
-    public String getType() {
-        return type;
-    }
 
-    /**
-     * 设置类型
-     *
-     * @param type 类型
-     */
-    public void setType(String type) {
-        this.type = type;
-    }
 
     /**
      * 获取角色组类型
@@ -463,7 +443,6 @@ public class AuthGroupPo implements Serializable {
         sb.append(", name=").append(name);
         sb.append(", parentId=").append(parentId);
         sb.append(", path=").append(path);
-        sb.append(", type=").append(type);
         sb.append(", groupType=").append(groupType);
         sb.append(", description=").append(description);
         sb.append(", crtTime=").append(crtTime);

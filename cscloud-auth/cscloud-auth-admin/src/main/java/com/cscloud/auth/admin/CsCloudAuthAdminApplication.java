@@ -1,13 +1,13 @@
 package com.cscloud.auth.admin;
 
 
+import com.cscloud.auth.client.EnableAuthClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-
-import com.cscloud.auth.client.EnableAuthClient;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
@@ -17,10 +17,11 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 @EnableFeignClients(basePackages = "com.cscloud.auth.api")
 @EnableEurekaClient
-@SpringBootApplication(scanBasePackages = {"com.cscloud.auth.admin","com.cscloud.auth.api","com.cscloud.common"})
-@EnableHystrix
+@SpringBootApplication(scanBasePackages = {"com.cscloud.auth.admin","com.cscloud.auth.api"})
 @MapperScan(basePackages= {"com.cscloud.auth.admin.mapper"})
 @EnableAuthClient //开启对应的权限认证
+@EnableHystrixDashboard
+@EnableCircuitBreaker
 public class CsCloudAuthAdminApplication {
 	public static void main(String[] args) {
 		new SpringApplication(CsCloudAuthAdminApplication.class).run(args);

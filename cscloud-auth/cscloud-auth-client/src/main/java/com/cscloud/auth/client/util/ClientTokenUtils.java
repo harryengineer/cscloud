@@ -39,15 +39,15 @@ public class ClientTokenUtils {
 	@Autowired
 	private ClientAuthProperties clientAuthProperties;
 	
-	public String clientToken;
+	public  String clientToken;
 	
 	public List<String> allowClients;
 
 	public  String getToken() {
-		if (clientToken == null) {
+		if (this.clientToken == null) {
 			getRefreshToken();
 		}
-		return clientToken;
+		return this.clientToken;
 	}
 	
 	
@@ -62,6 +62,7 @@ public class ClientTokenUtils {
 	 * 问题:  没有用到在jsonwebtoken  中自动验证了）
 	 * @return
 	 */
+	@Scheduled(cron = "0 */30 * * * ?")
 	public String  getRefreshToken() {
 		Wrapper<String> result = clientFeignApi.getClientToken(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());
 		log.info("the result of refresh client token : {} ",result);
@@ -79,7 +80,7 @@ public class ClientTokenUtils {
 	/**
 	 * 30 查询到自己允许的服务器，并保存到本地
 	 */
-	@Scheduled(cron = "0 */2 * * * ?")
+	@Scheduled(cron = "0 */30 * * * ?")
 	public void allowClients() {
 		log.info("get the allowed client........{}",clientAuthProperties.getClientId());
 		Wrapper<List<String>> clientList = clientFeignApi.getAllowClient(clientAuthProperties.getClientId(),clientAuthProperties.getClientSecret());

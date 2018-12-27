@@ -106,7 +106,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 		IJWTInfo user = null;
 		try {
 			user = getJWTUser(request, mutate);
-		} catch (Exception e) {
+		}catch (Exception e) {
 			log.error("用户Token过期异常", e);
 			try {
 				return getVoidMono(exchange, e);
@@ -116,7 +116,7 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 			}
 		}
 
-		// 获取用户的所有的权限
+		// 获取用户的所有的权限,判断用户是否访问这个url
 		Wrapper<List<AuthPermissionVo>> permission = authAdminUserFeignApi.getAllPermission();
 		if (permission.getStatus() == HttpStatus.OK.value()) {
 			List<AuthPermissionVo> list = permission.getData();
@@ -223,12 +223,12 @@ public class AccessGatewayFilter implements GlobalFilter, Ordered {
 	 * @throws Exception
 	 */
 	private IJWTInfo getJWTUser(ServerHttpRequest request,
-			org.springframework.http.server.reactive.ServerHttpRequest.Builder mutate) throws Exception {
-		List<String> authList = request.getHeaders().get(userProperties.getUserTokenHeader());
-		String authToken = null;
-		if (authList != null) {
-			authToken = authList.get(0);
-		}
+				org.springframework.http.server.reactive.ServerHttpRequest.Builder mutate) throws Exception {
+			List<String> authList = request.getHeaders().get(userProperties.getUserTokenHeader());
+			String authToken = null;
+			if (authList != null) {
+				authToken = authList.get(0);
+			}
 
 		// 判断这个时候如果为空的话，从query数据中尝试获取
 		if (StringUtils.isBlank(authToken)) {

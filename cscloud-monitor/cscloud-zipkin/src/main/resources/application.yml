@@ -5,7 +5,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: cscloud-zipkin
+    name: cscloud-hystrix-dashborad
 
 #  datasource:
 #    url: jdbc:mysql://localhost:3306/kefu?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
@@ -13,4 +13,14 @@ spring:
 #    password: 123456
 #    driver-class-name: com.mysql.jdbc.Driver
 #    continue-on-error: true
+turbine:
+  app-config: cscloud-auth-admin,cscloud-auth-server
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+  clusterConfig: default
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

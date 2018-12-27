@@ -34,8 +34,6 @@ public class UserAuthInterceptor implements HandlerInterceptor {
 		log.info("为请求同进行权限的设定");
 		String token = request.getHeader(userAuthConfiguration.getUserTokenHeader());
 		IJWTInfo ijwtInfo = userTokenUtils.getInfoFromToken(token);
-		
-		//问题:，这里因该对用户的访问权限进行验证才对？？？，
 		BaseContextMap.setUserToken(token);
 		BaseContextMap.setUserID(ijwtInfo.getId());
 		BaseContextMap.setName(ijwtInfo.getName());

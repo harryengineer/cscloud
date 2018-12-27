@@ -13,7 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-    </properties>
+       <docker.image.prefix>cscloud-eureka</docker.image.prefix>
+   </properties>
   
   <dependencies>
   	<dependency>
@@ -22,19 +23,34 @@
 		</dependency>
 
   </dependencies>
-  
-   <build>
-        <finalName>${artifactId}</finalName>
+
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- Docker maven plugin -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
                 <configuration>
-                 <addResources>false</addResources>
+                    <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                    <dockerDirectory>src/main/resources</dockerDirectory>
+                    <dockerHost>http://192.168.51.40:2375</dockerHost>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
                 </configuration>
             </plugin>
-         
+            <!-- Docker maven plugin -->
         </plugins>
     </build>
-  
+
+
 </project>

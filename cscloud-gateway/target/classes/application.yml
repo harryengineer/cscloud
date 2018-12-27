@@ -20,13 +20,13 @@ spring:
         filters:
         -  StripPrefix=1
       - id: cscloud-auth-server
-        uri: http://127.0.0.1:8809
+        uri: lb://cscloud-auth-server
         predicates:
           - Path=/api/auth/server/**
         filters:
           - StripPrefix=3
       - id: cscloud-auth-admin
-        uri: http://127.0.0.1:8810
+        uri: lb://cscloud-auth-admin
         predicates:
           - Path=/api/auth/admin/**
         filters:

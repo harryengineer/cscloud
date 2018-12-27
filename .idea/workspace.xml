@@ -2,66 +2,57 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/ElementController.java" line="37" />
-    <bookmark url="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" line="75" />
+    <bookmark url="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" line="78" />
+    <bookmark url="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" line="17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d5811a-67bf-431c-a01f-bf73127a50aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/SecurityPermitAllConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/java/com/cscloud/admin/AdminCscloudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/zipkin/ZipkinCscloudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-eureka/src/main/resources/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/interceptor/MyBatisInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/interceptor/MyBatisInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthUserPoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthUserPoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupPoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupPoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupPoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupPoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/banner.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/ClientAuthProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/ClientAuthProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/UserAuthProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/UserAuthProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/JWTRSAUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/JWTRSAUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-config/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/MyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/mybatis/MyMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/BaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-core/target/classes/com/cscloud/common/core/support/IService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-eureka/target/classes/com/cscloud/eureka/CsCloudEurekaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/target/classes/com/cscloud/eureka/CsCloudEurekaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-gateway/target/classes/com/cscloud/gateway/CsCloudGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/target/classes/com/cscloud/gateway/CsCloudGatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/.project" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/src/main/java/com/cscloud/monitor/CsCloudMonitorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/src/main/resource/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/src/main/resource/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-monitor/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/model/StatisticDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/DtcStatisticFeignApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider-api/cscloud-provider-api-dtc/target/classes/com/cscloud/provider/api/service/hystrix/DtcStatisticFeignApiHystrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscloud-zipkin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/constant/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/constant/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-eureka/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/.project" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/.project" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/zipkin/ZipkinCscloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/turbine/HystrixTurbineCscloudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/resources/banner.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cscloud-gateway/target/" />
     <ignored path="$PROJECT_DIR$/cscloud-provider/cscloud-provider-usc/target/" />
@@ -113,19 +104,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/turbine/HystrixTurbineCscloudApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+            <state relative-caret-position="295">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/java/com/cscloud/eureka/CsCloudEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,79 +172,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java">
+        <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/java/com/cscloud/admin/AdminCscloudApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="273">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
-                <element signature="e#6046#6047#0" expanded="true" />
-                <element signature="e#6076#6077#0" expanded="true" />
-                <element signature="e#6122#6123#0" expanded="true" />
-                <element signature="e#6160#6161#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/FeignClientTokenInteceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/UserAuthServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/ClientAuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/AuthClientSerivce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -223,41 +213,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getAuthorityElementByUserId</find>
-      <find>BeanUtils</find>
-      <find>ResourceHttpRequestHandler</find>
-      <find>Delete</find>
-      <find>baseSerivce</find>
-      <find>request</find>
-      <find>Str</find>
-      <find>Menu</find>
-      <find>elementPoService</find>
-      <find>selectMenuByAuthorityId</find>
-      <find>authorityId</find>
-      <find>set</find>
-      <find>“</find>
-      <find>1</find>
-      <find>BoundSql</find>
-      <find>invokeSetParameter</find>
-      <find>getPropertyDescriptor</find>
-      <find>invokeUpdate</find>
-      <find>paramObj</find>
-      <find>System</find>
-      <find>Method Not Allowed</find>
-      <find>cloud</find>
-      <find>selectAuthorityMenuByUserId</find>
-      <find>authority_id</find>
-      <find>leader</find>
-      <find>save</find>
-      <find>BCryptPasswordEncoder</find>
-      <find>encoder</find>
+      <find>environment</find>
+      <find>DEFAULT_PROFILES_PROPERTY_NAME</find>
+      <find>test</find>
+      <find>hystrix</find>
+      <find>openfeign</find>
+      <find>Stream</find>
+      <find>Hystrix.stream</find>
+      <find>/2</find>
+      <find>@Scheduled</find>
+      <find>allowClients</find>
+      <find>getAllowClients</find>
       <find>clientAuthProperties</find>
-      <find>getAllowedClient</find>
+      <find>checkUserPermission</find>
+      <find>getPermissionIfs</find>
+      <find>header</find>
+      <find>ignore</find>
+      <find>mutate.header</find>
+      <find>pubKeyByte</find>
+      <find>getPubKeyByte</find>
+      <find>getJwtInfo</find>
+      <find>F</find>
+      <find>txt</find>
+      <find>banner</find>
+      <find>banner.</find>
+      <find>uri</find>
+      <find>delegate</find>
+      <find>lowerCaseServiceId</find>
+      <find>urlExpression</find>
+      <find>properties</find>
+      <find />
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace>baseService</replace>
       <replace>&quot;</replace>
+      <replace />
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -266,57 +257,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/BaseController.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupTypeController.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/CustomOkHttpInterceptor.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/GateLog.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGateLog.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthAuthLog.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthOperateLog.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthOperateLogPoMapper.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthElementPoService.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/AuthOperateController.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthOperateLogPoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthOperateLogPoService.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthElementPoMapper.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthOperateLogPoMapper.xml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/MyBatisInterceptor.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/BaseContextMap.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthOperateLogPo.java" />
-        <option value="$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/support/BaseController.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/AuthServiceController.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/mapper/AuthClientPoMapper.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/mapper/AuthClientPoMapper.xml" />
         <option value="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/handler/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/JWTRSAUtils.java" />
-        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cscloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/zipkin/ZipkinCscloudApplication.java" />
-        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" />
         <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cscloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/SecurityPermitAllConfig.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" />
         <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/java/com/cscloud/admin/AdminCscloudApplication.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/interceptor/MyBatisInterceptor.java" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthMenuPoMapper.xml" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthUserPoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java" />
-        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" />
         <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/ClientAuthProperties.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/properties/UserAuthProperties.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/FeignOkHttpConfig.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/EnableAuthClient.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/configuration/AutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cscloud-common/cscloud-common-base/src/main/java/com/cscloud/common/base/constant/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-common/src/main/java/com/cscloud/auth/common/util/JWTRSAUtils.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthGroupPo.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthGroupPoMapper.xml" />
+        <option value="$PROJECT_DIR$/kefu.sql" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/GroupController.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthGroupPoService.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupPoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cscloud-eureka/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/zipkin/ZipkinCscloudApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/turbine/HystrixTurbineCscloudApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java" />
+        <option value="$PROJECT_DIR$/cscloud-eureka/src/main/java/com/cscloud/eureka/CsCloudEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/config/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/Dockerfile" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cscloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cscloud-eureka/src/main/resources/Dockerfile" />
+        <option value="$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -336,14 +327,31 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cscloud-zipkin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cscloud-zipkin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cscloud-zipkin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="docker" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="width" value="1531" />
-    <option name="height" value="1080" />
+    <option name="x" value="-6" />
+    <option name="y" value="27" />
+    <option name="width" value="1504" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -353,7 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,6 +371,11 @@
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-apollo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
               <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,16 +407,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
@@ -415,99 +417,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
@@ -548,137 +457,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
@@ -718,6 +496,14 @@
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
               <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -749,26 +535,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
@@ -827,13 +593,106 @@
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscloud" type="462c0819:PsiDirectoryNode" />
               <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="cscloud-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="cscloud-provider-dtc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -852,90 +711,333 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="ch" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.github.openfeign:feign-core:9.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.github.openfeign:feign-core:9.7.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="feign-core-9.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.github.openfeign:feign-core:9.7.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="feign-core-9.7.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.github.openfeign:feign-core:9.7.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="feign-core-9.7.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="codec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-webmvc-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-webmvc-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-webmvc-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="predicate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="ipresolver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-turbine:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-turbine:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-turbine-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-turbine:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-turbine-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+              <item name="standard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework:spring-webmvc:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-webmvc-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -947,14 +1049,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545657583767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545882516949" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -963,11 +1065,11 @@
       <recent name="com.cscloud.auth.server.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\cloud customer\cscloud\cscloud-monitor\cscloud-zipkin" />
-      <recent name="H:\cloud customer\cscloud\cscloud-monitor\cscloud-admin\src\main\resources" />
+      <recent name="H:\cloud customer\cscloud\cscloud-eureka\src\main\resources" />
       <recent name="H:\cloud customer\cscloud\cscloud-monitor\cscloud-zipkin\src\main\resources" />
-      <recent name="H:\cloud customer\cscloud\cscloud-auth\cscloud-auth-admin\src\main\resources\mapper" />
-      <recent name="H:\cloud customer\cscloud\cscloud-auth\cscloud-auth-admin\src\main\java\com\cscloud\auth\admin\domain" />
+      <recent name="H:\cloud customer\cscloud\cscloud-gateway\src\main\resources" />
+      <recent name="H:\cloud customer\cscloud\cscloud-auth\cscloud-auth-admin\src\main\resources" />
+      <recent name="H:\cloud customer\cscloud\cscloud-auth\cscloud-auth-server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -986,9 +1088,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.17948718" />
+    <option name="contentProportion" value="0.32337564" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CsCloudGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ZipkinCscloudApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1057,8 +1159,8 @@
       </method>
     </configuration>
     <configuration name="ZipkinCscloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cscloud-zipkin (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.zipkin.ZipkinCscloudApplication" />
+      <module name="cscloud-hystrix-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cscloud.turbine.HystrixTurbineCscloudApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1102,17 +1204,28 @@
       <workItem from="1545267724778" duration="27489000" />
       <workItem from="1545352356674" duration="30689000" />
       <workItem from="1545634731642" duration="16161000" />
-      <workItem from="1545699534219" duration="7112000" />
+      <workItem from="1545699534219" duration="21960000" />
+      <workItem from="1545784406095" duration="30406000" />
+      <workItem from="1545872405401" duration="10275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172715000" />
+    <option name="totallyTimeSpent" value="228244000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1531" height="1080" extended-state="0" />
+    <frame x="-6" y="27" width="1504" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22229776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20429362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1122,29 +1235,29 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284055" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33579725" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.743032" weight="0.33479214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006605" side_tool="true" weight="0.2375" />
+      <window_info active="true" anchor="bottom" id="Docker" order="9" sideWeight="0.7484704" visible="true" weight="0.52625823" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25152957" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3284055" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.328125" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4993395" visible="true" weight="0.3315734" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4993395" weight="0.39059082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" weight="0.19650349" />
+      <window_info anchor="right" id="Maven" order="1" visible="true" weight="0.25831026" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" visible="true" weight="0.13979933" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.13174404" />
       <window_info anchor="right" id="Database" order="5" weight="0.32910448" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24984306" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24966975" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.20479041" />
     </layout>
   </component>
@@ -1177,366 +1290,382 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/ElementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayLoadBalancerClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/QueryRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/support/ipresolver/XForwardedRemoteAddressResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/support/ipresolver/RemoteAddressResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/support/NameUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/RoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="25" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/AbstractRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/AfterRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/BeforeRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/BetweenRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/CloudFoundryRouteServiceRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/CookieRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/HeaderRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/HostRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/PathRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/MethodRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/PredicateDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/filter/FilterDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/RouteDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/PropertiesRouteDefinitionLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/HttpClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GlobalCorsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayRedisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="2668" column="18" selection-start-line="2668" selection-start-column="18" selection-end-line="2668" selection-end-column="18" />
+          <folding>
+            <element signature="e#104675#104676#0" expanded="true" />
+            <element signature="e#104730#104731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-commons/2.0.2.RELEASE/spring-cloud-commons-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/client/ServiceInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/spring-expression/5.0.10.RELEASE/spring-expression-5.0.10.RELEASE.jar!/org/springframework/expression/spel/standard/SpelExpressionParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/discovery/DiscoveryClientRouteDefinitionLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/filter/AccessGatewayFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/runner/AuthRuuner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthGroupPoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/interceptor/MyBatisInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="108" column="60" selection-start-line="108" selection-start-column="60" selection-end-line="108" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/java/com/cscloud/eureka/CsCloudEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthMenuPoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthMenuPoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthUserPoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/mapper/AuthMenuPoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/FeignException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/codec/ErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/SynchronousMethodHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/ReflectiveFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/resources/mapper/AuthMenuPoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/util/client/ClientTokenUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/support/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/support/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/web/front/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-common/cscloud-common-core/src/main/java/com/cscloud/common/core/support/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2035">
-          <caret line="127" column="31" lean-forward="true" selection-start-line="126" selection-start-column="4" selection-end-line="127" selection-end-column="31" />
-          <folding>
-            <element signature="e#2262#2263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/AuthUserPoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/PermissionSerivceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/discovery/DiscoveryLocatorProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2807#2808#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/service/impl/AuthUserPoServiceImpl.java">
+    <entry file="jar://E:/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/discovery/GatewayDiscoveryClientAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="330">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/util/ClientTokenUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/java/com/cscloud/admin/AdminCscloudApplication.java">
+    <entry file="file://$PROJECT_DIR$/cscloud-provider/cscloud-provider-dtc/src/main/java/com/cscloud/provider/CsCloudDtcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16896">
-          <caret line="795" selection-start-line="795" selection-end-line="795" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/UserAuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/resources/mapper/AuthClientPoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/mapper/AuthClientPoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/UserAuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/FeignClientTokenInteceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/UserAuthServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/controller/ClientAuthController.java">
+    <entry file="file://$PROJECT_DIR$/cscloud-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="280">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/domain/AuthResourceAuthorityPo.java">
+    <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/resources/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="e#6046#6047#0" expanded="true" />
-            <element signature="e#6076#6077#0" expanded="true" />
-            <element signature="e#6122#6123#0" expanded="true" />
-            <element signature="e#6160#6161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-client/src/main/java/com/cscloud/auth/client/interceptor/UserRequestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/interceptor/ClientAuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/AuthClientSerivce.java">
+    <entry file="file://$PROJECT_DIR$/cscloud-eureka/src/main/java/com/cscloud/eureka/CsCloudEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/service/impl/AuthClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+        <state relative-caret-position="242">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-admin/src/main/java/com/cscloud/auth/admin/CsCloudAuthAdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="297">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-admin/src/main/java/com/cscloud/admin/AdminCscloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-auth/cscloud-auth-server/src/main/java/com/cscloud/auth/server/CsCloudAuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/java/com/cscloud/gateway/CsCloudGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/java/com/cscloud/turbine/HystrixTurbineCscloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cscloud-monitor/cscloud-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>

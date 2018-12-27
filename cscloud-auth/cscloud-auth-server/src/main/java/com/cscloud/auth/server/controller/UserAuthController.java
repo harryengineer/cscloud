@@ -60,6 +60,4 @@ public class UserAuthController {
 		userService.verfity(token);
 		return Wrapper.success();
 	}
-	
-
 }

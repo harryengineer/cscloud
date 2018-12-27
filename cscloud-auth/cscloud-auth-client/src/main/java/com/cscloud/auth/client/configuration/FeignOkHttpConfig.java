@@ -27,6 +27,10 @@ public class FeignOkHttpConfig {
     @Autowired
     public SpringUtils springUtils;
 
+    /**
+     * 给okhttp添加自定义的注解
+     * @return
+     */
     @Bean
     public okhttp3.OkHttpClient okHttpClient(){
         return new okhttp3.OkHttpClient.Builder()

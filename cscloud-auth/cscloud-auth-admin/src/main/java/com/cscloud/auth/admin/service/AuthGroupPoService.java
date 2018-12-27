@@ -52,4 +52,5 @@ public interface AuthGroupPoService extends IService<AuthGroupPo> {
 	 */
 	List<Integer> getAuthorityElementByAuthorityId(int id);
 
+	void modifyAuthorityElement(int id, int menuId, int elementId);
 }

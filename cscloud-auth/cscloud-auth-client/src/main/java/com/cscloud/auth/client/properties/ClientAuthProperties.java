@@ -2,12 +2,14 @@ package com.cscloud.auth.client.properties;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /**
  * 服务实例对应的权限的配置
  * @author Administrator
  *
  */
+@Component
 public class ClientAuthProperties {
     private byte[] pubKeyByte;
     @Value("${auth.client.id}")

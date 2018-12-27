@@ -145,6 +145,16 @@ public class AuthGroupPoServiceImpl extends BaseService<AuthGroupPoMapper,AuthGr
         return ids;
 	}
 
+
+	public void modifyAuthorityElement(int groupId, int menuId, int elementId) {
+		AuthResourceAuthorityPo authority = new AuthResourceAuthorityPo();
+		authority.setAuthorityType(GlobalConstants.AUTHORITY_TYPE_GROUP);
+		authority.setResourceType(GlobalConstants.RESOURCE_TYPE_BTN);
+		authority.setAuthorityId(groupId + "");
+		authority.setResourceId(elementId + "");
+		authority.setParentId("-1");
+		authResourceAuthorityPoMapper.insertSelective(authority);
+	}
 	
 	
 

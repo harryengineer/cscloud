@@ -85,6 +85,13 @@ public class GroupController  extends BaseController<AuthGroupPoService,AuthGrou
     }
 
 
+    @RequestMapping(value = "/{id}/authority/element/add", method = RequestMethod.POST)
+
+    public String addElementAuthority(@PathVariable  int id,int menuId, int elementId){
+        baseService.modifyAuthorityElement(id,menuId,elementId);
+        return ResUtils.okRes();
+    }
+
     @RequestMapping(value = "/{id}/authority/element/remove", method = RequestMethod.POST)
     public String removeElementAuthority(@PathVariable int id,int menuId, int elementId){
         baseService.removeAuthorityElement(id,menuId,elementId);

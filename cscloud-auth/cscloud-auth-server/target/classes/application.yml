@@ -15,7 +15,7 @@ spring:
     password: 123456
     tomcat:
       max-active: 20
-      max-idle: 8
+      max-idle: 3600
       initial-size: 10
       
   jackson:
@@ -44,6 +44,8 @@ feign:
           -  com.cscloud.auth.server.interceptor.FeignClientTokenInteceptor
   okhttp:
     enabled: true
+  hystrix:
+    enabled: true
 
 # jwt 的3个重要的数据认证  token-header是认证类型
 # 这个是服务和服务之间的
@@ -53,14 +55,14 @@ client:
   token-header: Client-Auth
   client: cscloud-auth-server
   rsa-secret: 123456
-  expire: 3600 
+  expire: 3600
   secret: cLBPDn5c
 
 # 这个是用户访问的权限认证
 jwt: 
   token-header: Authorization
   expire: 14400
-  rsa-secret: xx1WET12^%3^(WE45
+  rsa-secret: xx1WET12^%3^(WE45an
 
 # 暴露所有端口
 management:

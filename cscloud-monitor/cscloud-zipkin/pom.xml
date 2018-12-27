@@ -6,7 +6,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>cscloud-zipkin</artifactId>
-
+  <properties>
+    <docker.image.prefix>hystrix-turbine</docker.image.prefix>
+  </properties>
   <dependencies>
     <!-- 使用消息的方式收集数据（使用rabbitmq） -->
 
@@ -14,6 +16,46 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>
+        spring-cloud-starter-netflix-turbine
+      </artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-turbine</artifactId>
+      <version>1.3.4.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
+    </dependency>
   </dependencies>
+
+
+
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>com.spotify</groupId>
+          <artifactId>docker-maven-plugin</artifactId>
+          <version>1.0.0</version>
+          <configuration>
+            <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+            <dockerDirectory>src/main/resources</dockerDirectory>
+            <dockerHost>http://192.168.51.40:2375</dockerHost>
+            <resources>
+              <resource>
+                <targetPath>/</targetPath>
+                <directory>${project.build.directory}</directory>
+                <include>${project.build.finalName}.jar</include>
+              </resource>
+            </resources>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
+
+
 </project>

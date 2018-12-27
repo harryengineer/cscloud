@@ -82,8 +82,6 @@ public class JWTRSAUtils {
     public static Jws<Claims> parserToken(String token, byte[] pubKey) throws Exception {
         try {
             return  Jwts.parser().setSigningKey(rsaKeyHelper.getPublicKey(pubKey)).parseClaimsJws(token);
-        } catch (ExpiredJwtException e) {
-            throw new BaseException(ErrorCode.CLIENT_TOKEN_EMPTY);
         } catch (Exception e){
             e.printStackTrace();
             throw e;

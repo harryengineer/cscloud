@@ -5,8 +5,10 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import com.cscloud.auth.client.annotation.IgnoreUserToken;
@@ -25,6 +27,7 @@ import java.util.Enumeration;
  * @author Administrator
  *
  */
+@Slf4j
 public class UserRequestInterceptor extends HandlerInterceptorAdapter {
 	
 	@Resource
@@ -79,9 +82,15 @@ public class UserRequestInterceptor extends HandlerInterceptorAdapter {
 		
 		throw new BaseException(ErrorCode.USER_NO_EXIST);
 	}
-	
-	
-	
-	
+
+	/**
+	 * 在访问完成之后，删除用户保存的信息
+	 */
+	@Override
+	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {
+		log.info("删除线程的{}",Thread.currentThread());
+		BaseContextMap.remove();
+	}
 
 }

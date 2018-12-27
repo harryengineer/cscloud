@@ -6,7 +6,13 @@ package com.cscloud.common.base.constant;
  *
  */
 public enum ErrorCode {
-	
+
+
+		/**
+		 * 系统基本权限认证错误
+		 */
+		TOKEN_EXPIRED(401,"权限认证错误"),
+
 		/**
 		 * 系统错误
 		 */
